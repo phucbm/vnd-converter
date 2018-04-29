@@ -1,56 +1,43 @@
-body{
-	width:350px;
-	margin:1px;
-	background: #2A77C5; /*#F73E42; /*#F1F1F1;*/
-	/*background: url("8-3-ver.jpg") no-repeat right fixed;*/
-	color:white;
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=vietnamese');
+/**
+font-family: 'Inconsolata', monospace;
+ */
+* { margin:0; padding:0; border:none; outline:none; }
+body {
+    font-family: 'Inconsolata', monospace; font-size: 14px;
+	width:400px;
+	color:#000;
 }
-a{
-	text-decoration:none;
-	color: white;/*#6E6E6E;*/
+.hidden {display: none;}
+
+/****************
+* Header
+****************/
+
+/****************
+* Main
+****************/
+main {
+    padding: 20px; box-sizing: border-box;
 }
-#title{
-	background:rgba(0,0,0,.20); /*#366ED4;*/
-	margin: 0 0 5px 0;
-	padding: 5px;
-	color: white; /*white;*/
-	font-size: 22px;
-}
-#default{
-	text-align:center;
-	width:150px;
-}
-#manual_input{
-	width: 336px;
-}
-#manual_input:focus{
-	outline: none;
-	background: transparent;
-	color: white;
-	border: 0;
-}
-#rounded, #tigia, #noti, #output, #manual_input {
-	color:black;
-	padding: 0 5px;
-	margin: 5px 0;
-	font-size: 20px;
-}
-#link {
-	text-align: center;
-}
-#noti {
-	font-size: 12px;
+input {
+	display: block; width: 100%; margin-bottom:5px;
+    padding: 5px; box-sizing: border-box;
+    border:1px solid #b6b6b6;
 }
 
-#support_output{
-	display:none;	
+.output-container {
+    display: flex; justify-content: space-between;
+    margin-bottom: 5px;
 }
-#rounded:hover, #tigia:hover, #output:hover {
-	background: #FFFFFF; /*#366ED4;*/
-	color: #1C1C1C;/* white;*/
-	border-radius: 5px;
+span.value {
+    font-weight: 700; font-size: 15px;
 }
-#version{
-	text-align: center;
-	color: black;/*#FEE100*/
+
+/****************
+* Footer
+****************/
+footer {
+    background-color: #f0f0f0; padding: 10px 0;
+    color:#636363; text-align:center; font-size: 12px;
 }
