@@ -92,17 +92,17 @@ function chuyenDoi(chuoi,mode){
 	}
 	chuoi = locKiTu(chuoi);
 	if(isSuccess(chuoi)){
-		input = tachSo(chuoi).toFixed(2).toString() + tiGia(chuoi).tiente;
-		ti_gia_hien_tai = "Tỉ giá: 1 " + 
-			tiGia(chuoi).tiente + " = " + 
-			tiGia(chuoi).tigia + " VNĐ";
-		chuoi = (tachSo(chuoi)*tiGia(chuoi).tigia).toFixed(2);
-		output = input + " = " + chuoi + ' VNĐ';
-		rounded = "Làm tròn là: "+addDecimalPoints(Math.round(chuoi),3)+" VNĐ";
+		var input = tachSo(chuoi).toFixed(2).toString() + tiGia(chuoi).tiente;
+		var ti_gia_hien_tai = "<span class='label'>Tỉ giá: 1 " +
+			tiGia(chuoi).tiente + " = </span><span class='value'>" +
+			tiGia(chuoi).tigia + " VNĐ</span>";
+		var chuoi_processed = (tachSo(chuoi)*tiGia(chuoi).tigia).toFixed(2);
+        var output = "<span class='label'>" + input + " = </span><span class='value'>" + chuoi_processed + ' VNĐ</span>';
+        var rounded = "<span class='label'>Làm tròn là: </span><span class='value'>"+addDecimalPoints(Math.round(chuoi_processed),3)+" VNĐ</span>";
 		$("#output").html(output);
 		$("#rounded").html(rounded);
 		$("#tigia").html(ti_gia_hien_tai);
-		if(tiGia(chuoi).url!="null") {
+		if(tiGia(chuoi_processed).url!="null") {
 			$("#noti").html("Tự động nhận biết đơn vị tiền tệ dựa trên trang web.<br>"+update);
 		}
 	}
