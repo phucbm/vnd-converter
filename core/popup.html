@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Em ơi đổi tiền</title>
-<meta charset="utf-8">
-<script src="ref/jquery-1.12.4.min.js"></script>
+    <title>Em ơi đổi tiền</title>
+    <meta charset="utf-8">
+    <script src="ref/jquery-1.12.4.min.js"></script>
 
-<!--mine-->
-<!--<script src="https://dl.dropbox.com/s/3hvrp6296w0aq7d/currency.json"></script>-->
-<script src="currency.json"></script>
-<script src="popup.js"></script>
-<link href='popup.css' rel='stylesheet' type='text/css'>
+    <!--mine-->
+    <!--<script src="https://dl.dropbox.com/s/3hvrp6296w0aq7d/currency.json"></script>-->
+    <script src="currency.json"></script>
+    <script src="popup.js"></script>
+    <link href='popup.css' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
-<div id="title">
-<a>Em ơi đổi tiền:</a>
-<!--<input type="text" name="firstname" placeholder="Mặc định" autocomplete="off" id="default">-->
-</div>
 
+<header class="hidden">
+    <div id="title">
+        <a>Em ơi đổi tiền:</a>
+        <!--<input type="text" name="firstname" placeholder="Mặc định" autocomplete="off" id="default">-->
+    </div>
+</header>
 
-<input id="manual_input" type="text" autocomplete="off" autofocus>
-<p id ="output"></p>
-<p id ="rounded"></p>
-<p id ="tigia"></p>
-<p id ="noti"></p>
-<p id ="link">
-<a href="https://chrome.google.com/webstore/detail/em-%C6%A1i-%C4%91%E1%BB%95i-ti%E1%BB%81n/fccdobmaecjklemcgjjkgbingioiapch/reviews">Đánh giá ứng dụng<a>
-</p>
-<p id="version"></p>
+<main>
+    <input id="manual_input" type="text" autocomplete="off" autofocus>
+    <div id="output" class="output-container"></div>
+    <div id="rounded" class="output-container"></div>
+    <div id="tigia" class="output-container"></div>
+    <div id="noti" class="output-container"></div>
+</main>
+
+<footer>
+    © 2016 <a href="https://phucbm.com">Thằng Đầu Quắn</a> -
+        <a href="https://chrome.google.com/webstore/detail/em-%C6%A1i-%C4%91%E1%BB%95i-ti%E1%BB%81n/fccdobmaecjklemcgjjkgbingioiapch/reviews">Đánh
+            giá ứng dụng</a>
+    <p id="version"></p>
+</footer>
+
 </body>
 </html>
