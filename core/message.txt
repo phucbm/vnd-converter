@@ -1,5 +1,5 @@
 {
-    "visibility": "visible",
+    "visibility": "hidden",
     "date": "29-Apr-18",
     "content": "Hello"
 }

@@ -66,6 +66,16 @@ table.don-vi-tien-te th {
     color: #fff;
 }
 
+/* Section: Message */
+section#message {
+    padding:10px 20px; box-sizing:border-box; position:relative;
+    background-color: #f0f0f0; text-align:center;
+}
+section#message:before {
+    content:''; position:absolute; bottom:0; left:20px; right:20px;
+    height:1px; background-color: #63636324;
+}
+
 /****************
 * Footer
 ****************/
