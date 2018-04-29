@@ -1,3 +1,4 @@
+/* Copyright 2016 Phucbm */
 //add decimal points to number
 function addDecimalPoints(str, dot) {
     str = str.toString();
@@ -80,7 +81,7 @@ function get_don_vi_tien_te() {
     return html;
 }
 
-function don_vi_tien_te(command = 'set') {
+function don_vi_tien_te(command) {
     var container = $('#don-vi-tien-te');
     if (command == 'set') {
         container.html(get_don_vi_tien_te());
@@ -204,10 +205,10 @@ if(chrome.tabs != null){
     chrome.tabs.executeScript({
         code: "window.getSelection().toString();"
     }, function (selection) {
+        console.log(selection);
         chuyenDoi(selection[0], 'auto');
     });
 }
-
 
 //listen from manual exchange
 document.addEventListener('DOMContentLoaded', documentEvents, false);

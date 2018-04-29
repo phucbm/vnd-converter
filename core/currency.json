@@ -51,7 +51,7 @@ var currency = [
 	{
 		"name":" yên Nhật",
 		"rate":209.6,
-		"symbols":["yen","jpy","¥","円","japaneseyen","nhat"],
+		"symbols":["yen","jpy","¥","￥","円","japaneseyen","nhat"],
 		"site":["amazon.co.jp",".jp","ikea.com/jp/en/"]
 	},
 	{
@@ -112,6 +112,6 @@ var currency = [
 		"name":" nhân dân tệ",
 		"rate":3594.65,
 		"symbols":["cny","ndt","nhandante","te","tq","trung"],
-		"site":["taobao.com","1688.com",".cn"]
+		"site":["taobao.com","1688.com",".cn","tmall.com"]
 	}
 ]
