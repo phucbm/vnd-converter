@@ -1,117 +1,234 @@
-﻿var update_date = "Theo tỉ giá Vietcombank cập nhật lúc 29/04/2018 13:30";
-var currency = [
-	{
-		"name":" đô la Úc",
-		"rate":17302.6,
-		"symbols":["aud","australiandollar","dolauc","tienuc"],
-		"site":[]
-	},
-	{
-		"name":" đô la Canada",
-		"rate":17798.13,
-		"symbols":["cda","canadiandollar","dolacanada","cad","tiencanada"],
-		"site":[]
-	},
-	{
-		"name":" Swiss France",
-		"rate":23194.33,
-		"symbols":["chf","swiss","franc","thuysi"],
-		"site":[]
-	},
-	{
-		"name":" Danish Krone",
-		"rate":3756.39,
-		"symbols":["dkk","danish","krone","danmach"],
-		"site":[]
-	},
-	{
-		"name":" euro",
-		"rate":28014.45,
-		"symbols":["eur","€","euro"],
-		"site":[]
-	},
-	{
-		"name":" bảng Anh",
-		"rate":31617.57,
-		"symbols":["gbp","£","pound","anh","bang","british"],
-		"site":[]
-	},
-	{
-		"name":" đô la HK",
-		"rate":2928.02,
-		"symbols":["hkd","hongkongdollar","dolahongkong","dolahk","hongkong"],
-		"site":[]
-	},
-	{
-		"name":" rupee Ấn Độ",
-		"rate":354.25,
-		"symbols":["inr","indianrupee","rupee","ando"],
-		"site":[]
-	},
-	{
-		"name":" yên Nhật",
-		"rate":209.6,
-		"symbols":["yen","jpy","¥","￥","円","japaneseyen","nhat"],
-		"site":["amazon.co.jp",".jp","ikea.com/jp/en/"]
-	},
-	{
-		"name":" won",
-		"rate":21.92,
-		"symbols":["won","krw","₩","southkorean","han"],
-		"site":[".kr"]
-	},
-	{
-		"name":" ringgit Malaysia",
-		"rate":5862.55,
-		"symbols":["myr","ringgit","malai","malay", "rm"],
-		"site":[]
-	},
-	{
-		"name":" kroner Na Uy",
-		"rate":2896.3,
-		"symbols":["nok","kroner","nauy","norwegian"],
-		"site":[]
-	},
-	{
-		"name":" rub Nga",
-		"rate":404.65,
-		"symbols":["rub","nga"],
-		"site":[]
-	},
-	{
-		"name":" krona Thụy Điển",
-		"rate":2649.58,
-		"symbols":["sek","krona","thuydien","swedish"],
-		"site":[]
-	},
-	{
-		"name":" đô la Sing",
-		"rate":17290.92,
-		"symbols":["sgd","dolasing","singapo","sing"],
-		"site":[]
-	},
-	{
-		"name":" baht Thái",
-		"rate":737.36,
-		"symbols":["thb","฿","bath","baht","thai"],
-		"site":[]
-	},
-	{
-		"name":" đô la Mỹ",
-		"rate":22800,
-		"symbols":["$","usd","usdollar","dola","hoaki","hoaky","my"],
-		"site":[]
-	},
-	{
-		"name":" nghìn",
-		"rate":1000,
-		"symbols":["nghin"],
-		"site":[]
-	},
-	{
-		"name":" nhân dân tệ",
-		"rate":3594.65,
-		"symbols":["cny","ndt","nhandante","te","tq","trung"],
-		"site":["taobao.com","1688.com",".cn","tmall.com"]
-	}
-]
+﻿{
+  "update_date": "Theo tỉ giá Vietcombank cập nhật lúc 29/04/2018 13:30",
+  "currency": [
+    {
+      "name": " đô la Úc",
+      "rate": 17302.6,
+      "symbols": [
+        "aud",
+        "australiandollar",
+        "dolauc",
+        "tienuc"
+      ],
+      "site": []
+    },
+    {
+      "name": " đô la Canada",
+      "rate": 17798.13,
+      "symbols": [
+        "cda",
+        "canadiandollar",
+        "dolacanada",
+        "cad",
+        "tiencanada"
+      ],
+      "site": []
+    },
+    {
+      "name": " Swiss France",
+      "rate": 23194.33,
+      "symbols": [
+        "chf",
+        "swiss",
+        "franc",
+        "thuysi"
+      ],
+      "site": []
+    },
+    {
+      "name": " Danish Krone",
+      "rate": 3756.39,
+      "symbols": [
+        "dkk",
+        "danish",
+        "krone",
+        "danmach"
+      ],
+      "site": []
+    },
+    {
+      "name": " euro",
+      "rate": 28014.45,
+      "symbols": [
+        "eur",
+        "€",
+        "euro"
+      ],
+      "site": []
+    },
+    {
+      "name": " bảng Anh",
+      "rate": 31617.57,
+      "symbols": [
+        "gbp",
+        "£",
+        "pound",
+        "anh",
+        "bang",
+        "british"
+      ],
+      "site": []
+    },
+    {
+      "name": " đô la HK",
+      "rate": 2928.02,
+      "symbols": [
+        "hkd",
+        "hongkongdollar",
+        "dolahongkong",
+        "dolahk",
+        "hongkong"
+      ],
+      "site": []
+    },
+    {
+      "name": " rupee Ấn Độ",
+      "rate": 354.25,
+      "symbols": [
+        "inr",
+        "indianrupee",
+        "rupee",
+        "ando"
+      ],
+      "site": []
+    },
+    {
+      "name": " yên Nhật",
+      "rate": 209.6,
+      "symbols": [
+        "yen",
+        "jpy",
+        "¥",
+        "￥",
+        "円",
+        "japaneseyen",
+        "nhat"
+      ],
+      "site": [
+        "amazon.co.jp",
+        ".jp",
+        "ikea.com/jp/en/"
+      ]
+    },
+    {
+      "name": " won",
+      "rate": 21.92,
+      "symbols": [
+        "won",
+        "krw",
+        "₩",
+        "southkorean",
+        "han"
+      ],
+      "site": [
+        ".kr"
+      ]
+    },
+    {
+      "name": " ringgit Malaysia",
+      "rate": 5862.55,
+      "symbols": [
+        "myr",
+        "ringgit",
+        "malai",
+        "malay",
+        "rm"
+      ],
+      "site": []
+    },
+    {
+      "name": " kroner Na Uy",
+      "rate": 2896.3,
+      "symbols": [
+        "nok",
+        "kroner",
+        "nauy",
+        "norwegian"
+      ],
+      "site": []
+    },
+    {
+      "name": " rub Nga",
+      "rate": 404.65,
+      "symbols": [
+        "rub",
+        "nga"
+      ],
+      "site": []
+    },
+    {
+      "name": " krona Thụy Điển",
+      "rate": 2649.58,
+      "symbols": [
+        "sek",
+        "krona",
+        "thuydien",
+        "swedish"
+      ],
+      "site": []
+    },
+    {
+      "name": " đô la Sing",
+      "rate": 17290.92,
+      "symbols": [
+        "sgd",
+        "dolasing",
+        "singapo",
+        "sing"
+      ],
+      "site": []
+    },
+    {
+      "name": " baht Thái",
+      "rate": 737.36,
+      "symbols": [
+        "thb",
+        "฿",
+        "bath",
+        "baht",
+        "thai"
+      ],
+      "site": []
+    },
+    {
+      "name": " đô la Mỹ",
+      "rate": 22800,
+      "symbols": [
+        "$",
+        "usd",
+        "usdollar",
+        "dola",
+        "hoaki",
+        "hoaky",
+        "my"
+      ],
+      "site": []
+    },
+    {
+      "name": " nghìn",
+      "rate": 1000,
+      "symbols": [
+        "nghin"
+      ],
+      "site": []
+    },
+    {
+      "name": " nhân dân tệ",
+      "rate": 3594.65,
+      "symbols": [
+        "cny",
+        "ndt",
+        "nhandante",
+        "te",
+        "tq",
+        "trung"
+      ],
+      "site": [
+        "taobao.com",
+        "1688.com",
+        ".cn",
+        "tmall.com"
+      ]
+    }
+  ]
+}
