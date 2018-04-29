@@ -1,5 +1,5 @@
 ﻿{
-  "update_date": "Theo tỉ giá Vietcombank cập nhật lúc 29/04/2018 23:00",
+  "update_date": "Theo tỉ giá Vietcombank cập nhật lúc 29/04/2018 23:20",
   "currency": [
     {
       "name": " đô la Úc",
