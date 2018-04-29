@@ -21,7 +21,6 @@
       "matches": ["<all_urls>"],
       "js": [
         "ref/jquery-1.12.4.min.js",
-        "currency.json",
         "popup.js"
       ]
     }
