@@ -1,104 +1,104 @@
-﻿var update_date = "Theo tỉ giá Vietcombank cập nhật lúc 08/08/2017 11:15";
+﻿var update_date = "Theo tỉ giá Vietcombank cập nhật lúc 29/04/2018 13:30";
 var currency = [
 	{
 		"name":" đô la Úc",
-		"rate":18116.37,
+		"rate":17302.6,
 		"symbols":["aud","australiandollar","dolauc","tienuc"],
 		"site":[]
 	},
 	{
 		"name":" đô la Canada",
-		"rate":18076.22,
+		"rate":17798.13,
 		"symbols":["cda","canadiandollar","dolacanada","cad","tiencanada"],
 		"site":[]
 	},
 	{
 		"name":" Swiss France",
-		"rate":23533.86,
+		"rate":23194.33,
 		"symbols":["chf","swiss","franc","thuysi"],
 		"site":[]
 	},
 	{
 		"name":" Danish Krone",
-		"rate":3669.33,
+		"rate":3756.39,
 		"symbols":["dkk","danish","krone","danmach"],
 		"site":[]
 	},
 	{
 		"name":" euro",
-		"rate":26990.76,
+		"rate":28014.45,
 		"symbols":["eur","€","euro"],
 		"site":[]
 	},
 	{
 		"name":" bảng Anh",
-		"rate":29787.55,
+		"rate":31617.57,
 		"symbols":["gbp","£","pound","anh","bang","british"],
 		"site":[]
 	},
 	{
 		"name":" đô la HK",
-		"rate":2927.42,
+		"rate":2928.02,
 		"symbols":["hkd","hongkongdollar","dolahongkong","dolahk","hongkong"],
 		"site":[]
 	},
 	{
 		"name":" rupee Ấn Độ",
-		"rate":369.24,
+		"rate":354.25,
 		"symbols":["inr","indianrupee","rupee","ando"],
 		"site":[]
 	},
 	{
 		"name":" yên Nhật",
-		"rate":206.43,
+		"rate":209.6,
 		"symbols":["yen","jpy","¥","円","japaneseyen","nhat"],
 		"site":["amazon.co.jp",".jp","ikea.com/jp/en/"]
 	},
 	{
 		"name":" won",
-		"rate":20.83,
+		"rate":21.92,
 		"symbols":["won","krw","₩","southkorean","han"],
 		"site":[".kr"]
 	},
 	{
 		"name":" ringgit Malaysia",
-		"rate":5342.66,
-		"symbols":["myr","ringgit","malai","malay"],
+		"rate":5862.55,
+		"symbols":["myr","ringgit","malai","malay", "rm"],
 		"site":[]
 	},
 	{
 		"name":" kroner Na Uy",
-		"rate":2919.80,
+		"rate":2896.3,
 		"symbols":["nok","kroner","nauy","norwegian"],
 		"site":[]
 	},
 	{
 		"name":" rub Nga",
-		"rate":420.87,
+		"rate":404.65,
 		"symbols":["rub","nga"],
 		"site":[]
 	},
 	{
 		"name":" krona Thụy Điển",
-		"rate":2830.223,
+		"rate":2649.58,
 		"symbols":["sek","krona","thuydien","swedish"],
 		"site":[]
 	},
 	{
 		"name":" đô la Sing",
-		"rate":16798.44,
+		"rate":17290.92,
 		"symbols":["sgd","dolasing","singapo","sing"],
 		"site":[]
 	},
 	{
 		"name":" baht Thái",
-		"rate":697.66,
+		"rate":737.36,
 		"symbols":["thb","฿","bath","baht","thai"],
 		"site":[]
 	},
 	{
 		"name":" đô la Mỹ",
-		"rate":22765.00,
+		"rate":22800,
 		"symbols":["$","usd","usdollar","dola","hoaki","hoaky","my"],
 		"site":[]
 	},
@@ -110,7 +110,7 @@ var currency = [
 	},
 	{
 		"name":" nhân dân tệ",
-		"rate":3347,
+		"rate":3594.65,
 		"symbols":["cny","ndt","nhandante","te","tq","trung"],
 		"site":["taobao.com","1688.com",".cn"]
 	}

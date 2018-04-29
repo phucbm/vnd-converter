@@ -25,7 +25,7 @@ function locKiTu(str) {
     str = str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g, "u");
     str = str.replace(/đ/g, "d");
     str = str.replace(/ /g, "");
-    str = str.replace(/k/g, "nghin");
+    //str = str.replace(/k/g, "nghin");
     return str;
 }
 
@@ -82,8 +82,10 @@ function don_vi_tien_te(command = 'set') {
     var container = $('#don-vi-tien-te');
     if (command == 'set') {
         container.html(get_don_vi_tien_te());
+        container.removeClass('hidden');
     } else {
         container.html('');
+        container.addClass('hidden');
     }
 }
 
@@ -106,7 +108,7 @@ function isSuccess(chuoi) {
     $('#notification').removeClass('update-date');
 
     // Return notification
-    if (chuoi == "") {
+    if (chuoi === "" || chuoi.length < 1) {
         set_noti("Hãy quét chọn hoặc gõ ngoại tệ mà bạn muốn đổi.");
         don_vi_tien_te('remove');
         return false;

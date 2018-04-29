@@ -20,10 +20,10 @@ a:hover, .pseudo-link:hover { text-decoration: underline; }
 * Main
 ****************/
 main {
-    padding: 20px; box-sizing: border-box;
+    padding: 20px; padding-bottom:10px; box-sizing: border-box;
 }
 input {
-    display: block; width: 100%; margin-bottom:5px;
+    display: block; width: 100%; margin-bottom:10px;
     padding: 5px; box-sizing: border-box;
     border:1px solid #b6b6b6;
 }
@@ -40,14 +40,16 @@ input {
 .output-row.quick-view .value {font-size:20px;}
 .output-row.ti-gia {font-size: 12px;}
 
+#notification {margin-bottom:10px;}
 #notification.update-date {
     font-size: 12px; text-align: center; margin-top: 10px; display:none;
 }
 
 /* Section: Don vi tien te */
+#don-vi-tien-te {max-height:300px; overflow:auto; margin-bottom:10px;}
 table.don-vi-tien-te {
     border-collapse: collapse;
-    width: 100%; margin-top: 10px;
+    width: 100%;
 }
 table.don-vi-tien-te td, table.don-vi-tien-te th {
     border: 1px solid #ddd;
