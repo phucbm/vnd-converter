@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3572402b-9f29-4254-a5e6-155584530ff3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/core/message.txt" afterPath="$PROJECT_DIR$/core/message.txt" />
       <change beforePath="$PROJECT_DIR$/core/popup.html" afterPath="$PROJECT_DIR$/core/popup.html" />
       <change beforePath="$PROJECT_DIR$/core/popup.js" afterPath="$PROJECT_DIR$/core/popup.js" />
     </list>
@@ -14,43 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/manifest.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="popup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/popup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="popup.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/popup.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="227" column="0" lean-forward="true" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="currency_test.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/currency_test.json">
+      <file leaf-file-name="currency.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/currency.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <caret line="1" column="71" lean-forward="false" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/message.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="83" lean-forward="false" selection-start-line="3" selection-start-column="83" selection-end-line="3" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -58,10 +38,18 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>default</find>
       <find>chrome.tabs.query</find>
+      <find>20</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,12 +62,17 @@
         <option value="$PROJECT_DIR$/releases/em-oi-doi-tien-3.0-new-interface/popup.css" />
         <option value="$PROJECT_DIR$/releases/em-oi-doi-tien-3.0-new-interface/popup.js" />
         <option value="$PROJECT_DIR$/releases/em-oi-doi-tien-3.0-new-interface/manifest.json" />
+        <option value="$PROJECT_DIR$/core/currency_test.json" />
         <option value="$PROJECT_DIR$/core/currency.json" />
-        <option value="$PROJECT_DIR$/core/popup.css" />
+        <option value="$PROJECT_DIR$/core/currency.js" />
+        <option value="$PROJECT_DIR$/core/currency.txt" />
         <option value="$PROJECT_DIR$/core/manifest.json" />
         <option value="$PROJECT_DIR$/core/popup.html" />
+        <option value="$PROJECT_DIR$/core/popup.css" />
+        <option value="$PROJECT_DIR$/releases/em-oi-doi-tien-3.2-fetch-data-via-ajax/popup.css" />
         <option value="$PROJECT_DIR$/core/popup.js" />
-        <option value="$PROJECT_DIR$/core/currency_test.json" />
+        <option value="$PROJECT_DIR$/releases/em-oi-doi-tien-3.2-fetch-data-via-ajax/popup.js" />
+        <option value="$PROJECT_DIR$/core/message.txt" />
       </list>
     </option>
   </component>
@@ -173,12 +166,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524972218681</updated>
       <workItem from="1524972220380" duration="14914000" />
-      <workItem from="1525012518086" duration="2811000" />
+      <workItem from="1525012518086" duration="9882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17725000" />
+    <option name="totallyTimeSpent" value="24796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -220,7 +213,50 @@
         <state relative-caret-position="3536">
           <caret line="208" column="1" lean-forward="false" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#addDecimalPoints#0" expanded="false" />
+            <element signature="e#1375#1484#0" expanded="false" />
+            <element signature="e#1403#1443#0" expanded="false" />
+            <element signature="n#!!block;n#locKiTu#0" expanded="false" />
+            <element signature="n#!!block;n#tachSo#0" expanded="false" />
+            <element signature="e#2211#2382#0" expanded="false" />
+            <element signature="e#2337#2376#0" expanded="false" />
+            <element signature="e#2469#2821#0" expanded="false" />
+            <element signature="e#2553#2817#0" expanded="false" />
+            <element signature="e#2563#2635#0" expanded="false" />
+            <element signature="e#2763#2789#0" expanded="false" />
+            <element signature="n#!!block;n#tiGia#0" expanded="false" />
+            <element signature="e#2919#3445#0" expanded="false" />
+            <element signature="e#2990#3194#0" expanded="false" />
+            <element signature="e#3052#3184#0" expanded="false" />
+            <element signature="e#3264#3439#0" expanded="false" />
+            <element signature="e#3330#3429#0" expanded="false" />
+            <element signature="n#!!block;n#get_don_vi_tien_te#0" expanded="false" />
+            <element signature="e#3696#3812#0" expanded="false" />
+            <element signature="n#!!block;n#don_vi_tien_te#0" expanded="false" />
+            <element signature="e#3960#4054#0" expanded="false" />
+            <element signature="e#4060#4133#0" expanded="false" />
+            <element signature="n#!!doc;n#set_noti#0" expanded="false" />
+            <element signature="n#!!doc;n#isSuccess#0" expanded="false" />
+            <element signature="e#4523#4655#0" expanded="false" />
+            <element signature="e#4703#4814#0" expanded="false" />
+            <element signature="e#4886#4992#0" expanded="false" />
+            <element signature="e#5047#5149#0" expanded="false" />
+            <element signature="n#!!block;n#chuyenDoi#0" expanded="false" />
+            <element signature="e#5407#5443#0" expanded="false" />
+            <element signature="e#5468#5514#0" expanded="false" />
+            <element signature="e#5569#7669#0" expanded="false" />
+            <element signature="e#5738#6532#0" expanded="false" />
+            <element signature="e#6560#7265#0" expanded="false" />
+            <element signature="e#6574#6893#0" expanded="false" />
+            <element signature="e#6906#7076#0" expanded="false" />
+            <element signature="e#7090#7255#0" expanded="false" />
+            <element signature="e#7369#7620#0" expanded="false" />
+            <element signature="e#7726#7922#0" expanded="false" />
+            <element signature="e#7758#7815#0" expanded="false" />
+            <element signature="e#7838#7918#0" expanded="false" />
+            <element signature="n#!!block;n#documentEvents#0" expanded="false" />
+            <element signature="e#8143#8228#0" expanded="false" />
+            <element signature="e#8275#8361#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -246,7 +282,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -256,62 +292,153 @@
     <entry file="file://$PROJECT_DIR$/releases/em-oi-doi-tien-3.0-new-interface/currency.json" />
     <entry file="file://$PROJECT_DIR$/releases/em-oi-doi-tien-3.0-new-interface/manifest.json" />
     <entry file="file://$PROJECT_DIR$/releases/em-oi-doi-tien-3.0-new-interface/popup.js" />
+    <entry file="file://$PROJECT_DIR$/core/currency_test2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/currency.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/background.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/currency.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/popup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/popup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        <state relative-caret-position="84">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="1" lean-forward="false" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/releases/em-oi-doi-tien-3.2-fetch-data-via-ajax/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/releases/em-oi-doi-tien-3.2-fetch-data-via-ajax/popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1594" lean-forward="false" selection-start-line="0" selection-start-column="1594" selection-end-line="0" selection-end-column="1594" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/popup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="227" column="0" lean-forward="true" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+        <state relative-caret-position="526">
+          <caret line="260" column="1" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="260" selection-end-column="1" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#addDecimalPoints#0" expanded="false" />
+            <element signature="e#1375#1484#0" expanded="false" />
+            <element signature="e#1403#1443#0" expanded="false" />
+            <element signature="n#!!block;n#locKiTu#0" expanded="false" />
+            <element signature="n#!!block;n#tachSo#0" expanded="false" />
+            <element signature="e#2211#2382#0" expanded="false" />
+            <element signature="e#2337#2376#0" expanded="false" />
+            <element signature="e#2469#2821#0" expanded="false" />
+            <element signature="e#2553#2817#0" expanded="false" />
+            <element signature="e#2563#2635#0" expanded="false" />
+            <element signature="e#2763#2789#0" expanded="false" />
+            <element signature="n#!!block;n#tiGia#0" expanded="false" />
+            <element signature="e#2919#3445#0" expanded="false" />
+            <element signature="e#2990#3194#0" expanded="false" />
+            <element signature="e#3052#3184#0" expanded="false" />
+            <element signature="e#3264#3439#0" expanded="false" />
+            <element signature="e#3330#3429#0" expanded="false" />
+            <element signature="n#!!block;n#get_don_vi_tien_te#0" expanded="false" />
+            <element signature="e#3696#3812#0" expanded="false" />
+            <element signature="n#!!block;n#don_vi_tien_te#0" expanded="false" />
+            <element signature="e#3960#4054#0" expanded="false" />
+            <element signature="e#4060#4133#0" expanded="false" />
+            <element signature="n#!!doc;n#set_noti#0" expanded="false" />
+            <element signature="n#!!doc;n#isSuccess#0" expanded="false" />
+            <element signature="e#4523#4655#0" expanded="false" />
+            <element signature="e#4703#4814#0" expanded="false" />
+            <element signature="e#4886#4992#0" expanded="false" />
+            <element signature="e#5047#5149#0" expanded="false" />
+            <element signature="n#!!block;n#chuyenDoi#0" expanded="false" />
+            <element signature="e#5407#5443#0" expanded="false" />
+            <element signature="e#5468#5514#0" expanded="false" />
+            <element signature="e#5569#7669#0" expanded="false" />
+            <element signature="e#5738#6532#0" expanded="false" />
+            <element signature="e#6560#7265#0" expanded="false" />
+            <element signature="e#6574#6893#0" expanded="false" />
+            <element signature="e#6906#7076#0" expanded="false" />
+            <element signature="e#7090#7255#0" expanded="false" />
+            <element signature="e#7369#7620#0" expanded="false" />
+            <element signature="e#7726#7922#0" expanded="false" />
+            <element signature="e#7758#7815#0" expanded="false" />
+            <element signature="e#7838#7918#0" expanded="false" />
+            <element signature="n#!!block;n#documentEvents#0" expanded="false" />
+            <element signature="e#8143#8228#0" expanded="false" />
+            <element signature="e#8275#8361#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/currency_test.json">
+    <entry file="file://$PROJECT_DIR$/releases/em-oi-doi-tien-3.2-fetch-data-via-ajax/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3947" lean-forward="false" selection-start-line="0" selection-start-column="3947" selection-end-line="0" selection-end-column="3947" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/releases/em-oi-doi-tien-3.2-fetch-data-via-ajax/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/currency.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <caret line="1" column="71" lean-forward="false" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/message.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="83" lean-forward="false" selection-start-line="3" selection-start-column="83" selection-end-line="3" selection-end-column="83" />
           <folding />
         </state>
       </provider>

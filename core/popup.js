@@ -1,4 +1,38 @@
 /* Copyright 2016 Phucbm */
+var currency, update_date, message;
+$(document).ready(function () {
+
+    $.ajax({
+        url: "https://raw.githubusercontent.com/phucbm/em-oi-doi-tien/master/core/currency.txt",
+        dataType: 'text',
+        success: function (data) {
+            data = JSON.parse(data);
+            currency = data.currency;
+            update_date = data.update_date;
+        },
+        error: function () {
+            console.log('Unable to fetch currency data.');
+        }
+    });
+    $.ajax({
+        url: "https://raw.githubusercontent.com/phucbm/em-oi-doi-tien/master/core/message.txt",
+        dataType: 'text',
+        success: function (data) {
+            message = JSON.parse(data);
+            var $message = $('#message');
+
+            if(message.visibility === 'visible'){
+                $message.removeClass('hidden');
+                $message.html(message.content); console.log(message.content);
+            }
+        },
+        error: function () {
+            console.log('Unable to fetch message data.');
+        }
+    });
+
+});
+
 //add decimal points to number
 function addDecimalPoints(str, dot) {
     str = str.toString();
@@ -44,7 +78,7 @@ function tachSo(chuoi) {
 
 //get current tab url
 var url;
-if(chrome.tabs != null){
+if (chrome.tabs != null) {
     chrome.tabs.query({active: true, currentWindow: true}, function (arrayOfTabs) {
         // since only one tab should be active and in the current window at once
         // the return variable should only have one entry
@@ -201,7 +235,7 @@ function chuyenDoi(chuoi, mode) {
 }
 
 //listen from selected text
-if(chrome.tabs != null){
+if (chrome.tabs != null) {
     chrome.tabs.executeScript({
         code: "window.getSelection().toString();"
     }, function (selection) {
@@ -225,11 +259,3 @@ function documentEvents() {
     });
     // you can add listeners for other objects ( like other buttons ) here
 }
-
-function setup_json(){
-    loadJSON("https://raw.githubusercontent.com/phucbm/em-oi-doi-tien/master/core/currency.json", _currency);
-}
-function _currency(data){
-    console.log(data);
-}
-_currency();
