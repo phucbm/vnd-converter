@@ -5,9 +5,11 @@ font-family: 'Inconsolata', monospace;
 * { margin:0; padding:0; border:none; outline:none; }
 body {
     font-family: 'Inconsolata', monospace; font-size: 14px;
-	width:400px;
-	color:#000;
+    width:400px;
+    color:#000;
 }
+a, .pseudo-link { color:#4285f4; text-decoration: none; cursor: pointer; }
+a:hover, .pseudo-link:hover { text-decoration: underline; }
 .hidden {display: none;}
 
 /****************
@@ -21,17 +23,44 @@ main {
     padding: 20px; box-sizing: border-box;
 }
 input {
-	display: block; width: 100%; margin-bottom:5px;
+    display: block; width: 100%; margin-bottom:5px;
     padding: 5px; box-sizing: border-box;
     border:1px solid #b6b6b6;
 }
 
-.output-container {
-    display: flex; justify-content: space-between;
+#output-container {}
+.output-row {
+    /*display: flex; justify-content: space-between;*/
     margin-bottom: 5px;
 }
-span.value {
-    font-weight: 700; font-size: 15px;
+.output-row.quick-view {
+    font-size:20px; color:#fff;
+    background-color: #4285f4; padding:8px 5px; margin-top: 10px;
+}
+.output-row.quick-view .value {font-size:20px;}
+.output-row.ti-gia {font-size: 12px;}
+
+#notification.update-date {
+    font-size: 12px; text-align: center; margin-top: 10px; display:none;
+}
+
+/* Section: Don vi tien te */
+table.don-vi-tien-te {
+    border-collapse: collapse;
+    width: 100%; margin-top: 10px;
+}
+table.don-vi-tien-te td, table.don-vi-tien-te th {
+    border: 1px solid #ddd;
+    padding:5px 8px;
+}
+table.don-vi-tien-te tr:nth-child(even){background-color: #f2f2f2;}
+table.don-vi-tien-te tr:hover {background-color: #ddd;}
+table.don-vi-tien-te th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #4285f4;
+    color: #fff;
 }
 
 /****************
