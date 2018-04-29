@@ -225,3 +225,11 @@ function documentEvents() {
     });
     // you can add listeners for other objects ( like other buttons ) here
 }
+
+function setup_json(){
+    loadJSON("https://raw.githubusercontent.com/phucbm/em-oi-doi-tien/master/core/currency.json", _currency);
+}
+function _currency(data){
+    console.log(data);
+}
+_currency();
