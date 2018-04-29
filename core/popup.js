@@ -43,13 +43,15 @@ function tachSo(chuoi) {
 
 //get current tab url
 var url;
-chrome.tabs.query({active: true, currentWindow: true}, function (arrayOfTabs) {
-    // since only one tab should be active and in the current window at once
-    // the return variable should only have one entry
-    var activeTab = arrayOfTabs[0];
-    url = activeTab.url; // or do whatever you need
-    //alert(url);
-});
+if(chrome.tabs != null){
+    chrome.tabs.query({active: true, currentWindow: true}, function (arrayOfTabs) {
+        // since only one tab should be active and in the current window at once
+        // the return variable should only have one entry
+        var activeTab = arrayOfTabs[0];
+        url = activeTab.url; // or do whatever you need
+        //alert(url);
+    });
+}
 
 function tiGia(chuoi) {
     //alert(chuoi);
@@ -198,11 +200,13 @@ function chuyenDoi(chuoi, mode) {
 }
 
 //listen from selected text
-chrome.tabs.executeScript({
-    code: "window.getSelection().toString();"
-}, function (selection) {
-    chuyenDoi(selection[0], 'auto');
-});
+if(chrome.tabs != null){
+    chrome.tabs.executeScript({
+        code: "window.getSelection().toString();"
+    }, function (selection) {
+        chuyenDoi(selection[0], 'auto');
+    });
+}
 
 
 //listen from manual exchange
