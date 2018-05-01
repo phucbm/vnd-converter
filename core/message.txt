@@ -1,5 +1,5 @@
 {
-    "visibility": "visible",
-    "date": "29-Apr-18",
+    "visibility": "hidden",
+    "date": "01-May-18",
     "content": "Cập nhật v3.2: tự động đổi sang Nhân dân tệ khi vào trang tmall.com"
 }
