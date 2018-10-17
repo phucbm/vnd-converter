@@ -1,9 +1,9 @@
 ﻿{
-  "update_date": "Theo tỉ giá Vietcombank cập nhật lúc 29/04/2018 23:20",
+  "update_date": "Theo tỉ giá Vietcombank cập nhật lúc 17/10/2018 14:45",
   "currency": [
     {
       "name": " đô la Úc",
-      "rate": 17302.6,
+      "rate": 16731.79,
       "symbols": [
         "aud",
         "australiandollar",
@@ -14,7 +14,7 @@
     },
     {
       "name": " đô la Canada",
-      "rate": 17798.13,
+      "rate": 18113.10,
       "symbols": [
         "cda",
         "canadiandollar",
@@ -26,7 +26,7 @@
     },
     {
       "name": " Swiss France",
-      "rate": 23194.33,
+      "rate": 23699.50,
       "symbols": [
         "chf",
         "swiss",
@@ -37,7 +37,7 @@
     },
     {
       "name": " Danish Krone",
-      "rate": 3756.39,
+      "rate": 3673.75,
       "symbols": [
         "dkk",
         "danish",
@@ -48,7 +48,7 @@
     },
     {
       "name": " euro",
-      "rate": 28014.45,
+      "rate": 2710057,
       "symbols": [
         "eur",
         "€",
@@ -58,7 +58,7 @@
     },
     {
       "name": " bảng Anh",
-      "rate": 31617.57,
+      "rate": 30881.99,
       "symbols": [
         "gbp",
         "£",
@@ -71,9 +71,11 @@
     },
     {
       "name": " đô la HK",
-      "rate": 2928.02,
+      "rate": 3000.27,
       "symbols": [
         "hkd",
+        "$hk",
+        "hk",
         "hongkongdollar",
         "dolahongkong",
         "dolahk",
@@ -83,7 +85,7 @@
     },
     {
       "name": " rupee Ấn Độ",
-      "rate": 354.25,
+      "rate": 329.39,
       "symbols": [
         "inr",
         "indianrupee",
@@ -94,7 +96,7 @@
     },
     {
       "name": " yên Nhật",
-      "rate": 209.6,
+      "rate": 212.02,
       "symbols": [
         "yen",
         "jpy",
@@ -112,7 +114,7 @@
     },
     {
       "name": " won",
-      "rate": 21.92,
+      "rate": 21.40,
       "symbols": [
         "won",
         "krw",
@@ -126,7 +128,7 @@
     },
     {
       "name": " ringgit Malaysia",
-      "rate": 5862.55,
+      "rate": 5657.74,
       "symbols": [
         "myr",
         "ringgit",
@@ -138,7 +140,7 @@
     },
     {
       "name": " kroner Na Uy",
-      "rate": 2896.3,
+      "rate": 2906.70,
       "symbols": [
         "nok",
         "kroner",
@@ -149,7 +151,7 @@
     },
     {
       "name": " rub Nga",
-      "rate": 404.65,
+      "rate": 397.04,
       "symbols": [
         "rub",
         "nga"
@@ -158,7 +160,7 @@
     },
     {
       "name": " krona Thụy Điển",
-      "rate": 2649.58,
+      "rate": 2649.39,
       "symbols": [
         "sek",
         "krona",
@@ -169,18 +171,19 @@
     },
     {
       "name": " đô la Sing",
-      "rate": 17290.92,
+      "rate": 17073.36,
       "symbols": [
         "sgd",
         "dolasing",
         "singapo",
-        "sing"
+        "sing",
+        "dosing"
       ],
       "site": []
     },
     {
       "name": " baht Thái",
-      "rate": 737.36,
+      "rate": 732.45,
       "symbols": [
         "thb",
         "฿",
@@ -192,7 +195,7 @@
     },
     {
       "name": " đô la Mỹ",
-      "rate": 22800,
+      "rate": 23385,
       "symbols": [
         "$",
         "usd",
@@ -214,7 +217,7 @@
     },
     {
       "name": " nhân dân tệ",
-      "rate": 3594.65,
+      "rate": 3470,
       "symbols": [
         "cny",
         "ndt",
