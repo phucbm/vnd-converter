@@ -1,7 +1,8 @@
 /* Copyright 2016 Phucbm */
 var currency, update_date, message;
+BMP = {};
 $(document).ready(function () {
-
+    // Fetch current file from Git
     $.ajax({
         url: "https://raw.githubusercontent.com/phucbm/em-oi-doi-tien/master/core/currency.txt",
         dataType: 'text',
@@ -14,6 +15,8 @@ $(document).ready(function () {
             console.log('Unable to fetch currency data.');
         }
     });
+
+    // Fetch message from Git
     $.ajax({
         url: "https://raw.githubusercontent.com/phucbm/em-oi-doi-tien/master/core/message.txt",
         dataType: 'text',
