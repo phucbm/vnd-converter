@@ -1,4 +1,4 @@
-﻿/*function notifications() {
+﻿function notifications() {
   if (Notification.permission !== "granted")
     Notification.requestPermission();
   else {
@@ -13,4 +13,4 @@
     };
   }
 }
-notifications();*/
+notifications();

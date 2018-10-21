@@ -8,6 +8,7 @@ dev = {};
 mess = {};
 input = {};
 currentTab = {};
+noti = {};
 jQuery(document).ready(function ($) {
     /************************************
      * Dev functions
@@ -87,6 +88,43 @@ jQuery(document).ready(function ($) {
     };
 
     /*************************************
+     * Notification
+     *************************************/
+    noti.data = {};
+    noti.getData = function () {
+        $.ajax({
+            url: "https://raw.githubusercontent.com/phucbm/em-oi-doi-tien/master/core/notification.txt",
+            dataType: 'text',
+            success: function (data) {
+                message = JSON.parse(data);
+
+                if (message.visibility === 'visible') {
+                    $mess_container.removeClass('hidden');
+                    $mess_container.html(message.content);
+                    console.log(message.content);
+                }
+            },
+            error: function () {
+                console.log('Unable to fetch message data.');
+            }
+        });
+
+        if (Notification.permission !== "granted")
+            Notification.requestPermission();
+        else {
+            var notification = new Notification("Phiên bản mới", {
+                icon: "icon.png",
+                body: "Sửa lỗi và cập nhật một số tính năng nhỏ. Click thông báo để xem chi tiết!",
+            });
+            //
+            notification.onclick = function () {
+                // url của kipalog để update status của notification và redirect tới trang của event(post, user page ...)
+                //window.open("https://chrome.google.com/webstore/detail/em-%C6%A1i-%C4%91%E1%BB%95i-ti%E1%BB%81n/fccdobmaecjklemcgjjkgbingioiapch/support");
+            };
+        }
+    };
+
+    /*************************************
      * Input
      *************************************/
     input.$ = $("#input");
@@ -96,11 +134,23 @@ jQuery(document).ready(function ($) {
         number: 0,
         currencyID: 0,
         currencyName: function () {
-            if (!input.valid) return;
+            if (!input.valid) {
+                if (currentTab.isSupported) {
+                    return app.currencyData.currencies[currentTab.currencySupportID].name;
+                } else {
+                    return;
+                }
+            }
             return app.currencyData.currencies[input.data.currencyID].name;
         },
         currencyRate: function () {
-            if (!input.valid) return;
+            if (!input.valid) {
+                if (currentTab.isSupported) {
+                    return app.currencyData.currencies[currentTab.currencySupportID].rate;
+                } else {
+                    return;
+                }
+            }
             return app.currencyData.currencies[input.data.currencyID].rate;
         }
     };
@@ -132,12 +182,22 @@ jQuery(document).ready(function ($) {
                     // Return currency code
                     currentTab.isSupported = true;
                     currentTab.currencySupportID = i;
+                    input.data.currencyID = i;
+                    currentTab.heySiteSupport();
                     return;
                 }
             }
         }
 
         currentTab.isSupported = false;
+    };
+
+    currentTab.heySiteSupport = function () {
+        var html = '<div class="site-support">';
+        html += '<img src="' + currentTab.favIconUrl + '">';
+        html += '<span>Ngoại tệ mặc định: ' + input.data.currencyName() + '</span>';
+        html += '<div>';
+        $('main').prepend(html);
     };
 
     /*************************************
@@ -172,6 +232,7 @@ jQuery(document).ready(function ($) {
         str = str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g, "u");
         str = str.replace(/đ/g, "d");
         str = str.replace(/ /g, "");
+        str = str.replace(/-/g, "");
 
         //dev.log("Text filtered: " + str);
         return str;
