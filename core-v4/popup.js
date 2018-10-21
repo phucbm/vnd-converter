@@ -14,7 +14,7 @@ jQuery(document).ready(function ($) {
     /************************************
      * Dev functions
      ************************************/
-    dev.status = true;
+    dev.status = false;
     dev.log = function (text) {
         if (dev.status) console.log(text);
     };
@@ -93,13 +93,8 @@ jQuery(document).ready(function ($) {
      *************************************/
     storage.sync = {
         set: function (value) {
-            chrome.storage.sync.set({key: value}, function () {
+            chrome.storage.sync.set({notiKey: value}, function () {
                 dev.log("Storage sync:" + value);
-            });
-        },
-        get: function () {
-            chrome.storage.sync.get("key", function (result) {
-                console.log(result.key);
             });
         }
     };
@@ -137,9 +132,15 @@ jQuery(document).ready(function ($) {
     noti.display = function () {
         if (noti.show !== "true") return;
 
-        // Check if noti is shown
-        var isShown = storage.sync.get();
-        if (isShown === "shown") return;
+        // Get notiID from chrome storage
+        chrome.storage.sync.get("notiKey", function (result) {
+            result = JSON.parse(result.notiKey);
+            dev.log("Storage value:");
+            dev.log(result);
+        });
+
+        /*var isShown = storage.sync.get();
+        if (isShown === "shown") return;*/
 
         // Show notification
         var notification = new Notification(noti.title, {
@@ -148,7 +149,7 @@ jQuery(document).ready(function ($) {
         });
 
         // Save noti flag
-        var val = '{' + noti.id + ':"shown"}';
+        var val = '{"status":"shown","notiID":"' + noti.id + '"}';
         storage.sync.set(val);
 
         notification.onclick = function () {
@@ -229,10 +230,12 @@ jQuery(document).ready(function ($) {
 
     currentTab.heySiteSupport = function () {
         var html = '<div class="site-support">';
-        html += '<img src="' + currentTab.favIconUrl + '">';
-        html += '<span>Ngoại tệ mặc định: ' + input.data.currencyName() + '</span>';
-        html += '<div>';
+        html += '<img src="' + currentTab.favIconUrl + '" class="favicon">';
+        html += '<span class="text">Ngoại tệ mặc định: ' + input.data.currencyName() + '</span>';
+        html += '</div>';
         $('main').prepend(html);
+
+        $('body').addClass('site-supported');
     };
 
     /*************************************
@@ -747,8 +750,14 @@ jQuery(document).ready(function ($) {
             });
         }
 
-        noti.run();
+        //noti.run();
     };
     app.run();
 
+    /**
+     * Manual link action
+     */
+    $('a').click(function () {
+        chrome.tabs.create({url: $(this).attr('href')});
+    });
 });

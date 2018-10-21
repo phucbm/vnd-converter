@@ -9,8 +9,8 @@ body {
     width:400px;
     color:#000;
 }
-a, .pseudo-link { color:#4285f4; text-decoration: none; cursor: pointer; }
-a:hover, .pseudo-link:hover { text-decoration: underline; }
+a { color:#4285f4; text-decoration: none;}
+a:hover { text-decoration: underline; }
 .hidden {display: none;}
 
 /****************
@@ -20,32 +20,30 @@ a:hover, .pseudo-link:hover { text-decoration: underline; }
 /****************
 * Main
 ****************/
-main {}
+main {padding:10px 10px 0;}
 input {
     display: block; width: 100%; margin-bottom:10px;
     padding: 5px; box-sizing: border-box;
     border:1px solid #b6b6b6;
 }
+p {margin-bottom:10px;}
 
-/* Section: Don vi tien te */
-#don-vi-tien-te {max-height:300px; overflow:auto; margin-bottom:10px;}
-table.don-vi-tien-te {
-    border-collapse: collapse;
-    width: 100%;
+/* SITE SUPPORT */
+.site-support {
+    margin:-10px -10px 10px; padding:10px;
+    background-color:#43A047; color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
-table.don-vi-tien-te td, table.don-vi-tien-te th {
-    border: 1px solid #ddd;
-    padding:5px 8px;
+.site-support .favicon {margin-right:10px; max-width:16px;}
+
+/* SUCCESS */
+.success.result {
+    font-size:20px; color:#fff;
+    background-color: #4285f4; padding:8px 5px;
 }
-table.don-vi-tien-te tr:nth-child(even){background-color: #f2f2f2;}
-table.don-vi-tien-te tr:hover {background-color: #ddd;}
-table.don-vi-tien-te th {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: left;
-    background-color: #4285f4;
-    color: #fff;
-}
+body.site-supported .success.result {background-color:#43A047;}
 
 /****************
 * Footer

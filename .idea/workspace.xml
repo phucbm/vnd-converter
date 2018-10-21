@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3572402b-9f29-4254-a5e6-155584530ff3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/core-v4/manifest.json" afterPath="$PROJECT_DIR$/core-v4/manifest.json" />
-      <change beforePath="$PROJECT_DIR$/core-v4/notification.txt" afterPath="$PROJECT_DIR$/core-v4/notification.txt" />
+      <change beforePath="$PROJECT_DIR$/core-v4/background.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/core-v4/popup.css" afterPath="$PROJECT_DIR$/core-v4/popup.css" />
+      <change beforePath="$PROJECT_DIR$/core-v4/popup.html" afterPath="$PROJECT_DIR$/core-v4/popup.html" />
       <change beforePath="$PROJECT_DIR$/core-v4/popup.js" afterPath="$PROJECT_DIR$/core-v4/popup.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popup.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="popup.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core-v4/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="170">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -39,50 +40,55 @@
       <file leaf-file-name="popup.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core-v4/popup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
-                <element signature="e#357#407#0" expanded="false" />
-                <element signature="e#575#607#0" expanded="false" />
-                <element signature="e#613#678#0" expanded="false" />
-                <element signature="e#725#1626#0" expanded="false" />
-                <element signature="e#1633#1701#0" expanded="false" />
-                <element signature="e#1750#1875#0" expanded="false" />
-                <element signature="e#1882#1965#0" expanded="false" />
-                <element signature="e#2019#2262#0" expanded="false" />
-                <element signature="e#2299#2348#0" expanded="false" />
-                <element signature="e#4522#5341#0" expanded="false" />
-                <element signature="e#5479#5870#0" expanded="false" />
-                <element signature="e#5992#6640#0" expanded="false" />
-                <element signature="e#6687#6947#0" expanded="false" />
-                <element signature="e#7052#7171#0" expanded="false" />
-                <element signature="e#7195#7293#0" expanded="false" />
-                <element signature="e#7300#7389#0" expanded="false" />
-                <element signature="e#7426#8036#0" expanded="false" />
-                <element signature="e#8043#8156#0" expanded="false" />
-                <element signature="e#8195#8769#0" expanded="false" />
-                <element signature="e#8776#8865#0" expanded="false" />
-                <element signature="e#8906#9214#0" expanded="false" />
-                <element signature="e#9221#9257#0" expanded="false" />
-                <element signature="e#9296#17775#0" expanded="false" />
-                <element signature="e#9448#16603#0" expanded="false" />
-                <element signature="e#17782#17873#0" expanded="false" />
-                <element signature="e#17914#18771#0" expanded="false" />
-                <element signature="e#18778#18867#0" expanded="false" />
-                <element signature="e#18910#20604#0" expanded="false" />
-                <element signature="e#20611#20655#0" expanded="false" />
-                <element signature="e#20689#21500#0" expanded="false" />
-                <element signature="e#21507#21533#0" expanded="false" />
+                <element signature="e#358#408#0" expanded="false" />
+                <element signature="e#576#608#0" expanded="false" />
+                <element signature="e#614#679#0" expanded="false" />
+                <element signature="e#726#1627#0" expanded="false" />
+                <element signature="e#1634#1702#0" expanded="false" />
+                <element signature="e#1751#1876#0" expanded="false" />
+                <element signature="e#1883#1966#0" expanded="false" />
+                <element signature="e#2020#2263#0" expanded="false" />
+                <element signature="e#2300#2349#0" expanded="false" />
+                <element signature="e#2473#2656#0" expanded="false" />
+                <element signature="e#2793#3514#0" expanded="false" />
+                <element signature="e#3589#4422#0" expanded="false" />
+                <element signature="e#4594#5413#0" expanded="false" />
+                <element signature="e#5551#5942#0" expanded="false" />
+                <element signature="e#5948#6015#0" expanded="false" />
+                <element signature="e#6064#6712#0" expanded="false" />
+                <element signature="e#6759#7096#0" expanded="false" />
+                <element signature="e#7201#7320#0" expanded="false" />
+                <element signature="e#7344#7442#0" expanded="false" />
+                <element signature="e#7449#7538#0" expanded="false" />
+                <element signature="e#7575#8185#0" expanded="false" />
+                <element signature="e#8192#8305#0" expanded="false" />
+                <element signature="e#8344#8918#0" expanded="false" />
+                <element signature="e#8925#9014#0" expanded="false" />
+                <element signature="e#9055#9363#0" expanded="false" />
+                <element signature="e#9370#9406#0" expanded="false" />
+                <element signature="e#9445#17924#0" expanded="false" />
+                <element signature="e#9597#16752#0" expanded="false" />
+                <element signature="e#17931#18022#0" expanded="false" />
+                <element signature="e#18063#18920#0" expanded="false" />
+                <element signature="e#18927#19016#0" expanded="false" />
+                <element signature="e#19059#20753#0" expanded="false" />
+                <element signature="e#20760#20804#0" expanded="false" />
+                <element signature="e#20838#21649#0" expanded="false" />
+                <element signature="e#21656#21682#0" expanded="false" />
+                <element signature="e#21709#22257#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notification.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core-v4/notification.txt">
+      <file leaf-file-name="popup.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-v4/popup.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="186">
+              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -100,7 +106,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hkd</find>
       <find>dola</find>
       <find>addDecimalPoints</find>
       <find>locKiTu</find>
@@ -130,6 +135,7 @@
       <find>k</find>
       <find>app.currentTab</find>
       <find>currentTab</find>
+      <find>site-s</find>
     </findStrings>
     <replaceStrings>
       <replace>characterFilter</replace>
@@ -174,15 +180,15 @@
         <option value="$PROJECT_DIR$/core/popup.js" />
         <option value="$PROJECT_DIR$/demo.html" />
         <option value="$PROJECT_DIR$/core/manifest.json" />
-        <option value="$PROJECT_DIR$/core-v4/popup.css" />
         <option value="$PROJECT_DIR$/core-v4/ref/local-currency.js" />
-        <option value="$PROJECT_DIR$/core-v4/popup.html" />
         <option value="$PROJECT_DIR$/core-v4/currency.txt" />
         <option value="$PROJECT_DIR$/core-v4/background.js" />
         <option value="$PROJECT_DIR$/core-v4/message.txt" />
         <option value="$PROJECT_DIR$/core-v4/manifest.json" />
-        <option value="$PROJECT_DIR$/core-v4/popup.js" />
         <option value="$PROJECT_DIR$/core-v4/notification.txt" />
+        <option value="$PROJECT_DIR$/core-v4/popup.js" />
+        <option value="$PROJECT_DIR$/core-v4/popup.css" />
+        <option value="$PROJECT_DIR$/core-v4/popup.html" />
       </list>
     </option>
   </component>
@@ -236,12 +242,6 @@
               <item name="em-oi-doi-tien" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="core-v4" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="em-oi-doi-tien" type="b2602c69:ProjectViewProjectNode" />
-              <item name="em-oi-doi-tien" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core-v4" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ref" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -293,7 +293,7 @@
       <workItem from="1525146881663" duration="18000" />
       <workItem from="1539762289613" duration="1473000" />
       <workItem from="1539840906365" duration="4035000" />
-      <workItem from="1540101582035" duration="35512000" />
+      <workItem from="1540101582035" duration="38967000" />
     </task>
     <task id="LOCAL-00001" summary="update currency">
       <created>1539762841990</created>
@@ -365,11 +365,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540134340195</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update noti file for test">
+      <created>1540137978716</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1540137978716</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66622000" />
+    <option name="totallyTimeSpent" value="70077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -601,14 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/popup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" column="1" lean-forward="false" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -648,14 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core-v4/popup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/GitHub/small-projects/menu-hover-effects/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1055">
@@ -688,32 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/popup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="43" column="7" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="43" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core-v4/popup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core-v4/currency.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1190">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core-v4/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -722,50 +687,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core-v4/popup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="e#357#407#0" expanded="false" />
-            <element signature="e#575#607#0" expanded="false" />
-            <element signature="e#613#678#0" expanded="false" />
-            <element signature="e#725#1626#0" expanded="false" />
-            <element signature="e#1633#1701#0" expanded="false" />
-            <element signature="e#1750#1875#0" expanded="false" />
-            <element signature="e#1882#1965#0" expanded="false" />
-            <element signature="e#2019#2262#0" expanded="false" />
-            <element signature="e#2299#2348#0" expanded="false" />
-            <element signature="e#4522#5341#0" expanded="false" />
-            <element signature="e#5479#5870#0" expanded="false" />
-            <element signature="e#5992#6640#0" expanded="false" />
-            <element signature="e#6687#6947#0" expanded="false" />
-            <element signature="e#7052#7171#0" expanded="false" />
-            <element signature="e#7195#7293#0" expanded="false" />
-            <element signature="e#7300#7389#0" expanded="false" />
-            <element signature="e#7426#8036#0" expanded="false" />
-            <element signature="e#8043#8156#0" expanded="false" />
-            <element signature="e#8195#8769#0" expanded="false" />
-            <element signature="e#8776#8865#0" expanded="false" />
-            <element signature="e#8906#9214#0" expanded="false" />
-            <element signature="e#9221#9257#0" expanded="false" />
-            <element signature="e#9296#17775#0" expanded="false" />
-            <element signature="e#9448#16603#0" expanded="false" />
-            <element signature="e#17782#17873#0" expanded="false" />
-            <element signature="e#17914#18771#0" expanded="false" />
-            <element signature="e#18778#18867#0" expanded="false" />
-            <element signature="e#18910#20604#0" expanded="false" />
-            <element signature="e#20611#20655#0" expanded="false" />
-            <element signature="e#20689#21500#0" expanded="false" />
-            <element signature="e#21507#21533#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core-v4/notification.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="38" column="65" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="38" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="242" column="8" lean-forward="false" selection-start-line="242" selection-start-column="8" selection-end-line="245" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/currency.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" column="21" lean-forward="true" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#358#408#0" expanded="false" />
+            <element signature="e#576#608#0" expanded="false" />
+            <element signature="e#614#679#0" expanded="false" />
+            <element signature="e#726#1627#0" expanded="false" />
+            <element signature="e#1634#1702#0" expanded="false" />
+            <element signature="e#1751#1876#0" expanded="false" />
+            <element signature="e#1883#1966#0" expanded="false" />
+            <element signature="e#2020#2263#0" expanded="false" />
+            <element signature="e#2300#2349#0" expanded="false" />
+            <element signature="e#2473#2656#0" expanded="false" />
+            <element signature="e#2793#3514#0" expanded="false" />
+            <element signature="e#3589#4422#0" expanded="false" />
+            <element signature="e#4594#5413#0" expanded="false" />
+            <element signature="e#5551#5942#0" expanded="false" />
+            <element signature="e#5948#6015#0" expanded="false" />
+            <element signature="e#6064#6712#0" expanded="false" />
+            <element signature="e#6759#7096#0" expanded="false" />
+            <element signature="e#7201#7320#0" expanded="false" />
+            <element signature="e#7344#7442#0" expanded="false" />
+            <element signature="e#7449#7538#0" expanded="false" />
+            <element signature="e#7575#8185#0" expanded="false" />
+            <element signature="e#8192#8305#0" expanded="false" />
+            <element signature="e#8344#8918#0" expanded="false" />
+            <element signature="e#8925#9014#0" expanded="false" />
+            <element signature="e#9055#9363#0" expanded="false" />
+            <element signature="e#9370#9406#0" expanded="false" />
+            <element signature="e#9445#17924#0" expanded="false" />
+            <element signature="e#9597#16752#0" expanded="false" />
+            <element signature="e#17931#18022#0" expanded="false" />
+            <element signature="e#18063#18920#0" expanded="false" />
+            <element signature="e#18927#19016#0" expanded="false" />
+            <element signature="e#19059#20753#0" expanded="false" />
+            <element signature="e#20760#20804#0" expanded="false" />
+            <element signature="e#20838#21649#0" expanded="false" />
+            <element signature="e#21656#21682#0" expanded="false" />
+            <element signature="e#21709#22257#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>
