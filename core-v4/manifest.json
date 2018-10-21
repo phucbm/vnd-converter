@@ -3,9 +3,9 @@
   "name": "Em ơi đổi tiền",
   "short_name": "Đổi tiền Việt",
   "description": "Công cụ này sẽ giúp bạn chuyển đổi các loại ngoại tệ sang Việt Nam đồng trực tiếp trên trang web.",
-  "version": "4",
+  "version": "4.0",
   "browser_action": {
-    "default_icon": "iconv4.png",
+    "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
   "permissions": [

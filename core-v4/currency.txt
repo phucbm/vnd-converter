@@ -1,9 +1,9 @@
 ﻿{
-  "update_text": "Theo tỉ giá Vietcombank cập nhật lúc 17/10/2018 14:45",
+  "update_text": "Theo tỉ giá Vietcombank cập nhật lúc 22/10/2018 00:00",
   "currencies": [
     {
       "name": " đô la Úc",
-      "rate": 16731.79,
+      "rate": 16682.61,
       "currencyCode": [
         "aud",
         "australiandollar",
@@ -14,7 +14,7 @@
     },
     {
       "name": " đô la Canada",
-      "rate": 18113.10,
+      "rate": 17968.3,
       "currencyCode": [
         "cda",
         "canadiandollar",
@@ -26,7 +26,7 @@
     },
     {
       "name": " Swiss France",
-      "rate": 23699.50,
+      "rate": 23571.72,
       "currencyCode": [
         "chf",
         "swiss",
@@ -37,7 +37,7 @@
     },
     {
       "name": " Danish Krone",
-      "rate": 3673.75,
+      "rate": 3642.47,
       "currencyCode": [
         "dkk",
         "danish",
@@ -48,7 +48,7 @@
     },
     {
       "name": " euro",
-      "rate": 2710057,
+      "rate": 26870.61,
       "currencyCode": [
         "eur",
         "€",
@@ -58,7 +58,7 @@
     },
     {
       "name": " bảng Anh",
-      "rate": 30881.99,
+      "rate": 30543.41,
       "currencyCode": [
         "gbp",
         "£",
@@ -71,7 +71,7 @@
     },
     {
       "name": " đô la HK",
-      "rate": 3000.27,
+      "rate": 3000.83,
       "currencyCode": [
         "hkd",
         "$hk",
@@ -85,7 +85,7 @@
     },
     {
       "name": " rupee Ấn Độ",
-      "rate": 329.39,
+      "rate": 329.26,
       "currencyCode": [
         "inr",
         "indianrupee",
@@ -96,7 +96,7 @@
     },
     {
       "name": " yên Nhật",
-      "rate": 212.02,
+      "rate": 212.15,
       "currencyCode": [
         "yen",
         "jpy",
@@ -114,7 +114,7 @@
     },
     {
       "name": " won",
-      "rate": 21.40,
+      "rate": 21.22,
       "currencyCode": [
         "won",
         "krw",
@@ -128,7 +128,7 @@
     },
     {
       "name": " ringgit Malaysia",
-      "rate": 5657.74,
+      "rate": 5653.36,
       "currencyCode": [
         "myr",
         "ringgit",
@@ -140,7 +140,7 @@
     },
     {
       "name": " kroner Na Uy",
-      "rate": 2906.70,
+      "rate": 2867.72,
       "currencyCode": [
         "nok",
         "kroner",
@@ -151,7 +151,7 @@
     },
     {
       "name": " rub Nga",
-      "rate": 397.04,
+      "rate": 395.12,
       "currencyCode": [
         "rub",
         "nga"
@@ -160,7 +160,7 @@
     },
     {
       "name": " krona Thụy Điển",
-      "rate": 2649.39,
+      "rate": 2617.48,
       "currencyCode": [
         "sek",
         "krona",
@@ -171,19 +171,22 @@
     },
     {
       "name": " đô la Sing",
-      "rate": 17073.36,
+      "rate": 17011.37,
       "currencyCode": [
         "sgd",
         "dolasing",
         "singapo",
         "sing",
-        "dosing"
+        "dosing",
+        "s$"
       ],
-      "site": []
+      "site": [
+        "irvinsaltedegg.com"
+      ]
     },
     {
       "name": " baht Thái",
-      "rate": 732.45,
+      "rate": 730.96,
       "currencyCode": [
         "thb",
         "฿",
@@ -195,7 +198,7 @@
     },
     {
       "name": " đô la Mỹ",
-      "rate": 23385,
+      "rate": 23390,
       "currencyCode": [
         "$",
         "usd",
@@ -232,6 +235,15 @@
         ".cn",
         "tmall.com"
       ]
+    },
+    {
+      "name": " Philippine Piso",
+      "rate": 435.22,
+      "currencyCode": [
+            "php",
+            "piso"
+          ],
+      "site": []
     }
   ]
 }
