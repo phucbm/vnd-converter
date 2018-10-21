@@ -1,5 +1,5 @@
 {
-    "id":"noti#01",
+    "id":"noti01",
     "show": "true",
     "date": "18-Oct-2018",
     "title":"Phiên bản mới 4.0",

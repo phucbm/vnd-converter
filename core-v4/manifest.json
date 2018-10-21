@@ -13,7 +13,8 @@
     "tabs",
     "notifications",
     "identity",
-    "identity.email"
+    "identity.email",
+    "storage"
   ],
   "content_scripts": [
     {

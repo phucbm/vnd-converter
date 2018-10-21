@@ -9,6 +9,7 @@ mess = {};
 input = {};
 currentTab = {};
 noti = {};
+storage = {};
 jQuery(document).ready(function ($) {
     /************************************
      * Dev functions
@@ -88,6 +89,22 @@ jQuery(document).ready(function ($) {
     };
 
     /*************************************
+     * Storage
+     *************************************/
+    storage.sync = {
+        set: function (value) {
+            chrome.storage.sync.set({key: value}, function () {
+                dev.log("Storage sync:" + value);
+            });
+        },
+        get: function () {
+            chrome.storage.sync.get("key", function (result) {
+                console.log(result.key);
+            });
+        }
+    };
+
+    /*************************************
      * Notification
      *************************************/
     noti.run = function () {
@@ -104,28 +121,36 @@ jQuery(document).ready(function ($) {
                 noti.icon = data.icon;
                 noti.content = data.content;
                 noti.link = data.link;
-                dev.log(noti);
+
+                noti.display();
             },
             error: function () {
                 dev.log("Get notification data from Git fail!");
             }
         });
 
-        // Show notification
-        if (noti.show) {
-            noti.display();
-        }
     };
 
     /**
      * Show notification
      */
     noti.display = function () {
+        if (noti.show !== "true") return;
+
+        // Check if noti is shown
+        var isShown = storage.sync.get();
+        if (isShown === "shown") return;
+
         // Show notification
         var notification = new Notification(noti.title, {
             icon: noti.icon,
             body: noti.content
         });
+
+        // Save noti flag
+        var val = '{' + noti.id + ':"shown"}';
+        storage.sync.set(val);
+
         notification.onclick = function () {
             // Open link
             if (noti.link.length > 0) {
