@@ -1,0 +1,9 @@
+{
+    "id":"noti01",
+    "show": "true",
+    "date": "18-Oct-2018",
+    "title":"Phiên bản mới 4.0",
+    "icon":"icon.png",
+    "content":"Sửa lỗi và cập nhật một số tính năng nhỏ. Click thông báo để xem chi tiết!",
+    "link":""
+}
