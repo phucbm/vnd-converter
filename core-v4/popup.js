@@ -164,7 +164,7 @@ jQuery(document).ready(function ($) {
         } else {
             number = parseFloat(number);
         }
-        dev.log("Number filtered: " + number);
+        //dev.log("Number filtered: " + number);
         return number;
     };
 
@@ -483,7 +483,7 @@ jQuery(document).ready(function ($) {
         }
 
         if (hasFound) {
-            dev.log("Currency code found: " + currencyCode);
+            //dev.log("Currency code found: " + currencyCode);
             return currencyID;
         }
         return false;
@@ -499,7 +499,7 @@ jQuery(document).ready(function ($) {
         var valTextFiltered,
             valNumber,
             currencyID;
-        dev.log("Input: " + valRaw);
+        //dev.log("Input: " + valRaw);
 
         // Check empty
         if (valRaw.length === 0) {
@@ -595,6 +595,14 @@ jQuery(document).ready(function ($) {
         });
 
         // On user selection
+        if (chrome.tabs != null) {
+            chrome.tabs.executeScript({
+                code: "window.getSelection().toString();"
+            }, function (selection) {
+                input.$.val(selection[0]);
+                app.convert(selection[0]);
+            });
+        }
     };
     app.run();
 
