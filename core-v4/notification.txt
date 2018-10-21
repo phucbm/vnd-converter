@@ -1,8 +1,8 @@
 {
-    "visibility": "visible",
+    "show": "true",
     "date": "18-Oct-2018",
-    "title":"",
-    "icon":"",
-    "content":"",
+    "title":"Phiên bản mới 4.0",
+    "icon":"icon.png",
+    "content":"Sửa lỗi và cập nhật một số tính năng nhỏ. Click thông báo để xem chi tiết!",
     "link":""
 }
