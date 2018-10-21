@@ -1,4 +1,8 @@
-/* Copyright 2016 Phucbm */
+/**
+ * Em oi doi tien - Chrome extension
+ * Copyright 2016 PHUCBM.COM
+ */
+
 app = {};
 dev = {};
 mess = {};
@@ -64,6 +68,23 @@ jQuery(document).ready(function ($) {
         if (validation.length) validation.remove();
     };
 
+    /**
+     * Set result, rate
+     * @param resultText
+     * @param rateText
+     */
+    mess.setResult = function (resultText, rateText) {
+        // Remove old result
+        mess.clearResult();
+
+        // Add new result, rate
+        mess.$.append('<p class="success result">' + resultText + '</p>');
+        mess.$.append('<p class="success rate">' + rateText + '</p>');
+    };
+    mess.clearResult = function () {
+        mess.$.find(".success").remove();
+    };
+
     /*************************************
      * Input
      *************************************/
@@ -80,14 +101,6 @@ jQuery(document).ready(function ($) {
         currencyRate: function () {
             if (!input.valid) return;
             return app.currencyData.currencies[input.data.currencyID].rate;
-        },
-        convertedNumber: function () {
-            if (!input.valid) return;
-            return this.number * this.currencyRate();
-        },
-        resultText: function () {
-            if (!input.valid) return;
-            return this.number + this.currencyName() + " = " + app.formatCurrency(this.convertedNumber().toFixed(2)) + " VNĐ";
         }
     };
 
@@ -157,12 +170,15 @@ jQuery(document).ready(function ($) {
 
     /**
      * Format currency, add commas
-     * @param str
+     * @param num
      * @returns {string}
      */
-    app.formatCurrency = function (str) {
-        str = str.toString();
-        var x = str.split('.'), x1 = x[0], x2 = x.length > 1 ? '.' + x[1] : '', rgx = /(\d+)(\d{3})/;
+    app.formatCurrency = function (num) {
+        var str = num.toFixed(2).toString(),
+            x = str.split('.'),
+            x1 = x[0],
+            x2 = x.length > 1 ? '.' + x[1] : '',
+            rgx = /(\d+)(\d{3})/;
         while (rgx.test(x1)) {
             x1 = x1.replace(rgx, '$1' + ',' + '$2');
         }
@@ -533,18 +549,41 @@ jQuery(document).ready(function ($) {
         return true;
     };
 
+    /**
+     * Convert
+     * @param val
+     */
     app.convert = function (val) {
         // Return if fail validation
-        if (!app.validateInput(val)) return;
+        if (!app.validateInput(val)) {
+            mess.clearResult();
+            return;
+        }
 
         // Definition
-        var resultText = input.data.resultText();
+        var data = input.data,
+            rate = data.currencyRate(),
+            rawNumber = data.number,
+            convertedNumber = rawNumber * rate,
+            resultText, rateText;
 
-        mess.$.html(resultText);
-        dev.log(resultText);
+        // Format number
+        convertedNumber = app.formatCurrency(convertedNumber);
+        rawNumber = app.formatCurrency(rawNumber);
+        rate = app.formatCurrency(rate);
+
+        // Build result text
+        resultText = rawNumber + data.currencyName() + " = " + convertedNumber + " VNĐ";
+
+        // Build rate text
+        rateText = "Tỉ giá: 1" + data.currencyName() + " = " + rate + " VNĐ";
+
+        mess.setResult(resultText, rateText);
     };
 
-    // Run app
+    /**
+     * App run
+     */
     app.run = function () {
         // Get currencies data
         app.getCurrencyData();
