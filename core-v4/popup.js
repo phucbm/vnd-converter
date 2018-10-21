@@ -90,39 +90,48 @@ jQuery(document).ready(function ($) {
     /*************************************
      * Notification
      *************************************/
-    noti.getData = function () {
+    noti.run = function () {
+        // Get data from Git
         $.ajax({
             url: "https://raw.githubusercontent.com/phucbm/em-oi-doi-tien/master/core-v4/notification.txt",
             dataType: 'text',
             success: function (data) {
                 data = JSON.parse(data);
+                noti.id = data.id;
                 noti.show = data.show;
                 noti.date = data.date;
                 noti.title = data.title;
                 noti.icon = data.icon;
                 noti.content = data.content;
                 noti.link = data.link;
+                dev.log(noti);
             },
             error: function () {
                 dev.log("Get notification data from Git fail!");
             }
         });
 
-        dev.log(noti);
-        /*
-                if (Notification.permission !== "granted")
-                    Notification.requestPermission();
-                else {
-                    var notification = new Notification("Phiên bản mới 4.0", {
-                        icon: "icon.png",
-                        body: "Sửa lỗi và cập nhật một số tính năng nhỏ. Click thông báo để xem chi tiết!",
-                    });
-                    //
-                    notification.onclick = function () {
-                        // url của kipalog để update status của notification và redirect tới trang của event(post, user page ...)
-                        //window.open("https://chrome.google.com/webstore/detail/em-%C6%A1i-%C4%91%E1%BB%95i-ti%E1%BB%81n/fccdobmaecjklemcgjjkgbingioiapch/support");
-                    };
-                }*/
+        // Show notification
+        if (noti.show) {
+            noti.display();
+        }
+    };
+
+    /**
+     * Show notification
+     */
+    noti.display = function () {
+        // Show notification
+        var notification = new Notification(noti.title, {
+            icon: noti.icon,
+            body: noti.content
+        });
+        notification.onclick = function () {
+            // Open link
+            if (noti.link.length > 0) {
+                window.open(noti.link);
+            }
+        };
     };
 
     /*************************************
@@ -713,7 +722,7 @@ jQuery(document).ready(function ($) {
             });
         }
 
-        noti.getData();
+        noti.run();
     };
     app.run();
 

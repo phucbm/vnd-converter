@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popup.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="popup.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core-v4/popup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="715" column="23" lean-forward="false" selection-start-line="715" selection-start-column="23" selection-end-line="715" selection-end-column="23" />
+            <state relative-caret-position="228">
+              <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
               <folding>
                 <element signature="e#343#393#0" expanded="false" />
                 <element signature="e#561#593#0" expanded="false" />
@@ -50,38 +50,38 @@
                 <element signature="e#1868#1951#0" expanded="false" />
                 <element signature="e#2005#2248#0" expanded="false" />
                 <element signature="e#2285#2334#0" expanded="false" />
-                <element signature="e#4113#4932#0" expanded="false" />
-                <element signature="e#5070#5461#0" expanded="false" />
-                <element signature="e#5583#6231#0" expanded="false" />
-                <element signature="e#6278#6538#0" expanded="false" />
-                <element signature="e#6643#6762#0" expanded="false" />
-                <element signature="e#6786#6884#0" expanded="false" />
-                <element signature="e#6891#6980#0" expanded="false" />
-                <element signature="e#7017#7627#0" expanded="false" />
-                <element signature="e#7634#7747#0" expanded="false" />
-                <element signature="e#7786#8360#0" expanded="false" />
-                <element signature="e#8367#8456#0" expanded="false" />
-                <element signature="e#8497#8805#0" expanded="false" />
-                <element signature="e#8812#8848#0" expanded="false" />
-                <element signature="e#8887#17366#0" expanded="false" />
-                <element signature="e#9039#16194#0" expanded="false" />
-                <element signature="e#17373#17464#0" expanded="false" />
-                <element signature="e#17505#18362#0" expanded="false" />
-                <element signature="e#18369#18458#0" expanded="false" />
-                <element signature="e#18501#20195#0" expanded="false" />
-                <element signature="e#20202#20246#0" expanded="false" />
-                <element signature="e#20280#21091#0" expanded="false" />
-                <element signature="e#21098#21124#0" expanded="false" />
+                <element signature="e#3870#4689#0" expanded="false" />
+                <element signature="e#4827#5218#0" expanded="false" />
+                <element signature="e#5340#5988#0" expanded="false" />
+                <element signature="e#6035#6295#0" expanded="false" />
+                <element signature="e#6400#6519#0" expanded="false" />
+                <element signature="e#6543#6641#0" expanded="false" />
+                <element signature="e#6648#6737#0" expanded="false" />
+                <element signature="e#6774#7384#0" expanded="false" />
+                <element signature="e#7391#7504#0" expanded="false" />
+                <element signature="e#7543#8117#0" expanded="false" />
+                <element signature="e#8124#8213#0" expanded="false" />
+                <element signature="e#8254#8562#0" expanded="false" />
+                <element signature="e#8569#8605#0" expanded="false" />
+                <element signature="e#8644#17123#0" expanded="false" />
+                <element signature="e#8796#15951#0" expanded="false" />
+                <element signature="e#17130#17221#0" expanded="false" />
+                <element signature="e#17262#18119#0" expanded="false" />
+                <element signature="e#18126#18215#0" expanded="false" />
+                <element signature="e#18258#19952#0" expanded="false" />
+                <element signature="e#19959#20003#0" expanded="false" />
+                <element signature="e#20037#20848#0" expanded="false" />
+                <element signature="e#20855#20881#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notification.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="notification.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core-v4/notification.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -292,7 +292,7 @@
       <workItem from="1525146881663" duration="18000" />
       <workItem from="1539762289613" duration="1473000" />
       <workItem from="1539840906365" duration="4035000" />
-      <workItem from="1540101582035" duration="31028000" />
+      <workItem from="1540101582035" duration="31878000" />
     </task>
     <task id="LOCAL-00001" summary="update currency">
       <created>1539762841990</created>
@@ -350,11 +350,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540133106393</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update noti file for test">
+      <created>1540133494582</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1540133494582</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62138000" />
+    <option name="totallyTimeSpent" value="62988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -416,7 +423,8 @@
     <MESSAGE value="done convert by user selection" />
     <MESSAGE value="done auto currency code" />
     <MESSAGE value="add notification function" />
-    <option name="LAST_COMMIT_MESSAGE" value="add notification function" />
+    <MESSAGE value="update noti file for test" />
+    <option name="LAST_COMMIT_MESSAGE" value="update noti file for test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -706,10 +714,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/notification.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core-v4/popup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="715" column="23" lean-forward="false" selection-start-line="715" selection-start-column="23" selection-end-line="715" selection-end-column="23" />
+        <state relative-caret-position="228">
+          <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding>
             <element signature="e#343#393#0" expanded="false" />
             <element signature="e#561#593#0" expanded="false" />
@@ -720,37 +736,29 @@
             <element signature="e#1868#1951#0" expanded="false" />
             <element signature="e#2005#2248#0" expanded="false" />
             <element signature="e#2285#2334#0" expanded="false" />
-            <element signature="e#4113#4932#0" expanded="false" />
-            <element signature="e#5070#5461#0" expanded="false" />
-            <element signature="e#5583#6231#0" expanded="false" />
-            <element signature="e#6278#6538#0" expanded="false" />
-            <element signature="e#6643#6762#0" expanded="false" />
-            <element signature="e#6786#6884#0" expanded="false" />
-            <element signature="e#6891#6980#0" expanded="false" />
-            <element signature="e#7017#7627#0" expanded="false" />
-            <element signature="e#7634#7747#0" expanded="false" />
-            <element signature="e#7786#8360#0" expanded="false" />
-            <element signature="e#8367#8456#0" expanded="false" />
-            <element signature="e#8497#8805#0" expanded="false" />
-            <element signature="e#8812#8848#0" expanded="false" />
-            <element signature="e#8887#17366#0" expanded="false" />
-            <element signature="e#9039#16194#0" expanded="false" />
-            <element signature="e#17373#17464#0" expanded="false" />
-            <element signature="e#17505#18362#0" expanded="false" />
-            <element signature="e#18369#18458#0" expanded="false" />
-            <element signature="e#18501#20195#0" expanded="false" />
-            <element signature="e#20202#20246#0" expanded="false" />
-            <element signature="e#20280#21091#0" expanded="false" />
-            <element signature="e#21098#21124#0" expanded="false" />
+            <element signature="e#3870#4689#0" expanded="false" />
+            <element signature="e#4827#5218#0" expanded="false" />
+            <element signature="e#5340#5988#0" expanded="false" />
+            <element signature="e#6035#6295#0" expanded="false" />
+            <element signature="e#6400#6519#0" expanded="false" />
+            <element signature="e#6543#6641#0" expanded="false" />
+            <element signature="e#6648#6737#0" expanded="false" />
+            <element signature="e#6774#7384#0" expanded="false" />
+            <element signature="e#7391#7504#0" expanded="false" />
+            <element signature="e#7543#8117#0" expanded="false" />
+            <element signature="e#8124#8213#0" expanded="false" />
+            <element signature="e#8254#8562#0" expanded="false" />
+            <element signature="e#8569#8605#0" expanded="false" />
+            <element signature="e#8644#17123#0" expanded="false" />
+            <element signature="e#8796#15951#0" expanded="false" />
+            <element signature="e#17130#17221#0" expanded="false" />
+            <element signature="e#17262#18119#0" expanded="false" />
+            <element signature="e#18126#18215#0" expanded="false" />
+            <element signature="e#18258#19952#0" expanded="false" />
+            <element signature="e#19959#20003#0" expanded="false" />
+            <element signature="e#20037#20848#0" expanded="false" />
+            <element signature="e#20855#20881#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core-v4/notification.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
