@@ -7,6 +7,7 @@ app = {};
 dev = {};
 mess = {};
 input = {};
+currentTab = {};
 jQuery(document).ready(function ($) {
     /************************************
      * Dev functions
@@ -102,6 +103,41 @@ jQuery(document).ready(function ($) {
             if (!input.valid) return;
             return app.currencyData.currencies[input.data.currencyID].rate;
         }
+    };
+
+    /*************************************
+     * Current tab
+     *************************************/
+    if (chrome.tabs != null) {
+        chrome.tabs.query({active: true, currentWindow: true}, function (arrayOfTabs) {
+            var activeTab = arrayOfTabs[0];
+            //dev.log(activeTab);
+            currentTab.url = activeTab.url;
+            currentTab.favIconUrl = activeTab.favIconUrl;
+            currentTab.title = activeTab.title;
+            currentTab.incognito = activeTab.incognito;
+        });
+    }
+
+    /**
+     * Check if current site support auto currency code
+     */
+    currentTab.runCheck = function (currencies) {
+        //dev.log(currencies);
+        // Loop each currency
+        for (var i = 0; i < currencies.length; i++) {
+            // Loop each site
+            for (var j = 0; j < currencies[i].site.length; j++) {
+                if (currentTab.url.indexOf(currencies[i].site[j]) >= 0) {
+                    // Return currency code
+                    currentTab.isSupported = true;
+                    currentTab.currencySupportID = i;
+                    return;
+                }
+            }
+        }
+
+        currentTab.isSupported = false;
     };
 
     /*************************************
@@ -441,6 +477,9 @@ jQuery(document).ready(function ($) {
                 app.currencyData.update_text = data.update_text;
                 app.currencyData.method = 'ajax';
                 dev.log("Get currency from Git.");
+
+                // Check current tab
+                currentTab.runCheck(app.currencyData.currencies);
             },
             error: function () {
                 // If ajax fail, use local data
@@ -448,6 +487,9 @@ jQuery(document).ready(function ($) {
                 app.currencyData.update_text = local_currency.update_text;
                 app.currencyData.method = 'local';
                 dev.log("Get currency from local variable.");
+
+                // Check current tab
+                currentTab.runCheck(app.currencyData.currencies);
             }
         });
 
@@ -464,18 +506,18 @@ jQuery(document).ready(function ($) {
         str = str.toString();
         var currencies = app.currencyData.currencies,
             hasFound = false,
-            currencyCode = '',
-            currencyID = 0;
+            currencyID = 0,
+            method;
 
-        // Loop each currency
+        // Else loop each currency
         for (var i = 0; i < currencies.length; i++) {
             // Loop each currency code
             for (var j = 0; j < currencies[i].currencyCode.length; j++) {
-                currencyCode = currencies[i].currencyCode[j];
-                if (str.indexOf(currencyCode) >= 0) {
+                if (str.indexOf(currencies[i].currencyCode[j]) >= 0) {
                     // Currency code found in string
                     hasFound = true;
                     currencyID = i;
+                    method = 'user-input';
                     break;
                 }
             }
@@ -483,7 +525,7 @@ jQuery(document).ready(function ($) {
         }
 
         if (hasFound) {
-            //dev.log("Currency code found: " + currencyCode);
+            dev.log("Currency code found: " + method);
             return currencyID;
         }
         return false;
@@ -535,9 +577,14 @@ jQuery(document).ready(function ($) {
         if (currencyID !== false) {
             mess.unsetValidation('currency-code-not-found');
         } else {
-            // Currency code not found
-            mess.setValidation('currency-code-not-found');
-            return false;
+            // If current site support auto currency code
+            if (currentTab.isSupported) {
+                currencyID = currentTab.currencySupportID;
+            } else {
+                // Currency code not found
+                mess.setValidation('currency-code-not-found');
+                return false;
+            }
         }
 
         // Gather value

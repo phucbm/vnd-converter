@@ -37,8 +37,8 @@
       <file leaf-file-name="popup.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/popup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1563">
-              <caret line="105" column="13" lean-forward="false" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+            <state relative-caret-position="152">
+              <caret line="95" column="4" lean-forward="false" selection-start-line="95" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -49,28 +49,41 @@
       <file leaf-file-name="popup.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core-v4/popup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="566" column="47" lean-forward="true" selection-start-line="566" selection-start-column="47" selection-end-line="566" selection-end-column="47" />
+            <state relative-caret-position="169">
+              <caret line="574" column="24" lean-forward="true" selection-start-line="574" selection-start-column="24" selection-end-line="574" selection-end-column="24" />
               <folding>
-                <element signature="e#315#365#0" expanded="false" />
-                <element signature="e#533#565#0" expanded="false" />
-                <element signature="e#683#1584#0" expanded="false" />
-                <element signature="e#1591#1659#0" expanded="false" />
-                <element signature="e#2970#3089#0" expanded="false" />
-                <element signature="e#3113#3211#0" expanded="false" />
-                <element signature="e#3218#3307#0" expanded="false" />
-                <element signature="e#3344#3917#0" expanded="false" />
-                <element signature="e#3924#4037#0" expanded="false" />
-                <element signature="e#4076#4648#0" expanded="false" />
-                <element signature="e#4655#4744#0" expanded="false" />
-                <element signature="e#4785#5093#0" expanded="false" />
-                <element signature="e#5100#5136#0" expanded="false" />
-                <element signature="e#5175#13445#0" expanded="false" />
-                <element signature="e#13452#13543#0" expanded="false" />
-                <element signature="e#13584#14455#0" expanded="false" />
-                <element signature="e#14462#14551#0" expanded="false" />
-                <element signature="e#14594#16080#0" expanded="false" />
+                <element signature="e#332#382#0" expanded="false" />
+                <element signature="e#550#582#0" expanded="false" />
+                <element signature="e#700#1601#0" expanded="false" />
+                <element signature="e#1608#1676#0" expanded="false" />
+                <element signature="e#1725#1850#0" expanded="false" />
+                <element signature="e#2495#2882#0" expanded="false" />
+                <element signature="e#3020#3411#0" expanded="false" />
+                <element signature="e#3533#4085#0" expanded="false" />
+                <element signature="e#4190#4309#0" expanded="false" />
+                <element signature="e#4333#4431#0" expanded="false" />
+                <element signature="e#4438#4527#0" expanded="false" />
+                <element signature="e#4564#5137#0" expanded="false" />
+                <element signature="e#5144#5257#0" expanded="false" />
+                <element signature="e#5296#5870#0" expanded="false" />
+                <element signature="e#5877#5966#0" expanded="false" />
+                <element signature="e#6007#6315#0" expanded="false" />
+                <element signature="e#6397#14875#0" expanded="false" />
+                <element signature="e#6549#13704#0" expanded="false" />
+                <element signature="e#15878#15967#0" expanded="false" />
+                <element signature="e#17711#17755#0" expanded="false" />
+                <element signature="e#17789#18600#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="currency.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-v4/currency.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="215" column="11" lean-forward="false" selection-start-line="215" selection-start-column="7" selection-end-line="215" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,9 +110,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>default</find>
-      <find>chrome.tabs.query</find>
-      <find>20</find>
       <find>hkd</find>
       <find>dola</find>
       <find>addDecimalPoints</find>
@@ -125,6 +135,11 @@
       <find>app.$input</find>
       <find>findCurrencyData</find>
       <find>nStr</find>
+      <find>dev.log</find>
+      <find>j</find>
+      <find>k</find>
+      <find>app.currentTab</find>
+      <find>currentTab</find>
     </findStrings>
     <replaceStrings>
       <replace>characterFilter</replace>
@@ -142,6 +157,9 @@
       <replace>input.$</replace>
       <replace>getCurrencyData</replace>
       <replace>str</replace>
+      <replace>k</replace>
+      <replace>j</replace>
+      <replace>currentTab</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -282,7 +300,7 @@
       <workItem from="1525146881663" duration="18000" />
       <workItem from="1539762289613" duration="1473000" />
       <workItem from="1539840906365" duration="4035000" />
-      <workItem from="1540101582035" duration="21298000" />
+      <workItem from="1540101582035" duration="27654000" />
     </task>
     <task id="LOCAL-00001" summary="update currency">
       <created>1539762841990</created>
@@ -312,11 +330,25 @@
       <option name="project" value="LOCAL" />
       <updated>1540121931201</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="done convert by user input">
+      <created>1540123755818</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1540123755818</updated>
+    </task>
+    <task id="LOCAL-00006" summary="done convert by user selection">
+      <created>1540124299147</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540124299147</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52408000" />
+    <option name="totallyTimeSpent" value="58764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -374,7 +406,9 @@
     <MESSAGE value="update currency" />
     <MESSAGE value="sent message" />
     <MESSAGE value="dev new version" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev new version" />
+    <MESSAGE value="done convert by user input" />
+    <MESSAGE value="done convert by user selection" />
+    <option name="LAST_COMMIT_MESSAGE" value="done convert by user selection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -606,26 +640,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core-v4/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core-v4/ref/local-currency.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core-v4/currency.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1241">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -646,10 +664,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/currency.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="215" column="11" lean-forward="false" selection-start-line="215" selection-start-column="7" selection-end-line="215" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/popup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1563">
-          <caret line="105" column="13" lean-forward="false" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+        <state relative-caret-position="152">
+          <caret line="95" column="4" lean-forward="false" selection-start-line="95" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -658,27 +692,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core-v4/popup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="566" column="47" lean-forward="true" selection-start-line="566" selection-start-column="47" selection-end-line="566" selection-end-column="47" />
+        <state relative-caret-position="169">
+          <caret line="574" column="24" lean-forward="true" selection-start-line="574" selection-start-column="24" selection-end-line="574" selection-end-column="24" />
           <folding>
-            <element signature="e#315#365#0" expanded="false" />
-            <element signature="e#533#565#0" expanded="false" />
-            <element signature="e#683#1584#0" expanded="false" />
-            <element signature="e#1591#1659#0" expanded="false" />
-            <element signature="e#2970#3089#0" expanded="false" />
-            <element signature="e#3113#3211#0" expanded="false" />
-            <element signature="e#3218#3307#0" expanded="false" />
-            <element signature="e#3344#3917#0" expanded="false" />
-            <element signature="e#3924#4037#0" expanded="false" />
-            <element signature="e#4076#4648#0" expanded="false" />
-            <element signature="e#4655#4744#0" expanded="false" />
-            <element signature="e#4785#5093#0" expanded="false" />
-            <element signature="e#5100#5136#0" expanded="false" />
-            <element signature="e#5175#13445#0" expanded="false" />
-            <element signature="e#13452#13543#0" expanded="false" />
-            <element signature="e#13584#14455#0" expanded="false" />
-            <element signature="e#14462#14551#0" expanded="false" />
-            <element signature="e#14594#16080#0" expanded="false" />
+            <element signature="e#332#382#0" expanded="false" />
+            <element signature="e#550#582#0" expanded="false" />
+            <element signature="e#700#1601#0" expanded="false" />
+            <element signature="e#1608#1676#0" expanded="false" />
+            <element signature="e#1725#1850#0" expanded="false" />
+            <element signature="e#2495#2882#0" expanded="false" />
+            <element signature="e#3020#3411#0" expanded="false" />
+            <element signature="e#3533#4085#0" expanded="false" />
+            <element signature="e#4190#4309#0" expanded="false" />
+            <element signature="e#4333#4431#0" expanded="false" />
+            <element signature="e#4438#4527#0" expanded="false" />
+            <element signature="e#4564#5137#0" expanded="false" />
+            <element signature="e#5144#5257#0" expanded="false" />
+            <element signature="e#5296#5870#0" expanded="false" />
+            <element signature="e#5877#5966#0" expanded="false" />
+            <element signature="e#6007#6315#0" expanded="false" />
+            <element signature="e#6397#14875#0" expanded="false" />
+            <element signature="e#6549#13704#0" expanded="false" />
+            <element signature="e#15878#15967#0" expanded="false" />
+            <element signature="e#17711#17755#0" expanded="false" />
+            <element signature="e#17789#18600#0" expanded="false" />
           </folding>
         </state>
       </provider>
