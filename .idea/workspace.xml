@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3572402b-9f29-4254-a5e6-155584530ff3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/core/message.txt" afterPath="$PROJECT_DIR$/core/message.txt" />
+    <list default="true" id="3572402b-9f29-4254-a5e6-155584530ff3" name="Default" comment="dev new version">
+      <change beforePath="" afterPath="$PROJECT_DIR$/core-v4/background.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core-v4/currency.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core-v4/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core-v4/icondev.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core-v4/manifest.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core-v4/message.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core-v4/popup.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core-v4/popup.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core-v4/popup.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core-v4/ref/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core-v4/ref/jquery-1.12.4.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/demo.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/core/manifest.json" afterPath="$PROJECT_DIR$/core/manifest.json" />
+      <change beforePath="$PROJECT_DIR$/core/popup.js" afterPath="$PROJECT_DIR$/core/popup.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,31 +27,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="popup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/popup.html">
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-v4/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/message.txt">
+      <file leaf-file-name="popup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-v4/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="5" column="52" lean-forward="false" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popup.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/popup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="105" column="13" lean-forward="false" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popup.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core-v4/popup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="534" column="0" lean-forward="true" selection-start-line="534" selection-start-column="0" selection-end-line="534" selection-end-column="0" />
+              <folding>
+                <element signature="e#268#318#0" expanded="false" />
+                <element signature="e#486#518#0" expanded="false" />
+                <element signature="e#1544#1612#0" expanded="false" />
+                <element signature="e#2802#2921#0" expanded="false" />
+                <element signature="e#2945#3043#0" expanded="false" />
+                <element signature="e#3050#3139#0" expanded="false" />
+                <element signature="e#3176#3749#0" expanded="false" />
+                <element signature="e#3756#3869#0" expanded="false" />
+                <element signature="e#3908#4480#0" expanded="false" />
+                <element signature="e#4487#4576#0" expanded="false" />
+                <element signature="e#4617#4874#0" expanded="false" />
+                <element signature="e#4881#4917#0" expanded="false" />
+                <element signature="e#4956#13226#0" expanded="false" />
+                <element signature="e#13233#13324#0" expanded="false" />
+                <element signature="e#13365#14236#0" expanded="false" />
+                <element signature="e#14243#14332#0" expanded="false" />
+                <element signature="e#14375#15861#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="currency.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-v4/currency.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1241">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="popup.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/popup.css">
+        <entry file="file://$PROJECT_DIR$/core-v4/popup.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="84" column="1" lean-forward="false" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+            <state relative-caret-position="340">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -48,6 +112,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -57,7 +122,49 @@
       <find>default</find>
       <find>chrome.tabs.query</find>
       <find>20</find>
+      <find>hkd</find>
+      <find>dola</find>
+      <find>addDecimalPoints</find>
+      <find>locKiTu</find>
+      <find>characterFilter</find>
+      <find>chuyenDoi</find>
+      <find>convert</find>
+      <find>BMP.convert</find>
+      <find>tachSo</find>
+      <find>numberFilter</find>
+      <find>notif</find>
+      <find>$('#output-container')</find>
+      <find>url</find>
+      <find>currencyCode</find>
+      <find>fail</find>
+      <find>symbols</find>
+      <find>&quot;currencyCode&quot;</find>
+      <find>val</find>
+      <find>getCurrency</find>
+      <find>toolong</find>
+      <find>empty</find>
+      <find>input</find>
+      <find>app.$input</find>
+      <find>findCurrencyData</find>
+      <find>nStr</find>
     </findStrings>
+    <replaceStrings>
+      <replace>characterFilter</replace>
+      <replace>convert</replace>
+      <replace>numberFilter</replace>
+      <replace>BMP.numberFilter</replace>
+      <replace>$output_container</replace>
+      <replace>currentUrl</replace>
+      <replace>code</replace>
+      <replace>currencyCode</replace>
+      <replace>valRaw</replace>
+      <replace>findCurrency</replace>
+      <replace>too-long-input</replace>
+      <replace>empty-input</replace>
+      <replace>input.$</replace>
+      <replace>getCurrencyData</replace>
+      <replace>str</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,14 +179,21 @@
         <option value="$PROJECT_DIR$/core/currency_test.json" />
         <option value="$PROJECT_DIR$/core/currency.json" />
         <option value="$PROJECT_DIR$/core/currency.js" />
-        <option value="$PROJECT_DIR$/core/currency.txt" />
-        <option value="$PROJECT_DIR$/core/manifest.json" />
         <option value="$PROJECT_DIR$/releases/em-oi-doi-tien-3.2-fetch-data-via-ajax/popup.css" />
-        <option value="$PROJECT_DIR$/core/popup.js" />
         <option value="$PROJECT_DIR$/releases/em-oi-doi-tien-3.2-fetch-data-via-ajax/popup.js" />
         <option value="$PROJECT_DIR$/core/popup.css" />
         <option value="$PROJECT_DIR$/core/popup.html" />
+        <option value="$PROJECT_DIR$/core/currency.txt" />
         <option value="$PROJECT_DIR$/core/message.txt" />
+        <option value="$PROJECT_DIR$/core/popup.js" />
+        <option value="$PROJECT_DIR$/demo.html" />
+        <option value="$PROJECT_DIR$/core/manifest.json" />
+        <option value="$PROJECT_DIR$/core-v4/popup.css" />
+        <option value="$PROJECT_DIR$/core-v4/manifest.json" />
+        <option value="$PROJECT_DIR$/core-v4/ref/local-currency.js" />
+        <option value="$PROJECT_DIR$/core-v4/popup.html" />
+        <option value="$PROJECT_DIR$/core-v4/currency.txt" />
+        <option value="$PROJECT_DIR$/core-v4/popup.js" />
       </list>
     </option>
   </component>
@@ -114,6 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -127,11 +242,21 @@
               <item name="em-oi-doi-tien" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="em-oi-doi-tien" type="b2602c69:ProjectViewProjectNode" />
+              <item name="em-oi-doi-tien" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core-v4" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="em-oi-doi-tien" type="b2602c69:ProjectViewProjectNode" />
+              <item name="em-oi-doi-tien" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core-v4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ref" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,9 +266,11 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BMP\2017-Extension-EmOiDoiTien\em-oi-doi-tien" />
       <recent name="E:\GitHub\em-oi-doi-tien\core" />
     </key>
   </component>
@@ -175,27 +302,52 @@
       <workItem from="1524972220380" duration="14914000" />
       <workItem from="1525012518086" duration="10670000" />
       <workItem from="1525146881663" duration="18000" />
+      <workItem from="1539762289613" duration="1473000" />
+      <workItem from="1539840906365" duration="4035000" />
+      <workItem from="1540101582035" duration="19450000" />
     </task>
+    <task id="LOCAL-00001" summary="update currency">
+      <created>1539762841990</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539762841991</updated>
+    </task>
+    <task id="LOCAL-00002" summary="sent message">
+      <created>1539764977483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539764977483</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dev new version">
+      <created>1539841344944</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539841344944</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25602000" />
+    <option name="totallyTimeSpent" value="50560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2685325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -204,6 +356,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -211,11 +383,115 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="update currency" />
+    <MESSAGE value="sent message" />
+    <MESSAGE value="dev new version" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev new version" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/core/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="1" lean-forward="false" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/message.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="1" lean-forward="false" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/message.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/popup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -237,50 +513,7 @@
         <state relative-caret-position="3536">
           <caret line="208" column="1" lean-forward="false" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
           <folding>
-            <element signature="n#!!block;n#addDecimalPoints#0" expanded="false" />
-            <element signature="e#1375#1484#0" expanded="false" />
-            <element signature="e#1403#1443#0" expanded="false" />
-            <element signature="n#!!block;n#locKiTu#0" expanded="false" />
-            <element signature="n#!!block;n#tachSo#0" expanded="false" />
-            <element signature="e#2211#2382#0" expanded="false" />
-            <element signature="e#2337#2376#0" expanded="false" />
-            <element signature="e#2469#2821#0" expanded="false" />
-            <element signature="e#2553#2817#0" expanded="false" />
-            <element signature="e#2563#2635#0" expanded="false" />
-            <element signature="e#2763#2789#0" expanded="false" />
-            <element signature="n#!!block;n#tiGia#0" expanded="false" />
-            <element signature="e#2919#3445#0" expanded="false" />
-            <element signature="e#2990#3194#0" expanded="false" />
-            <element signature="e#3052#3184#0" expanded="false" />
-            <element signature="e#3264#3439#0" expanded="false" />
-            <element signature="e#3330#3429#0" expanded="false" />
-            <element signature="n#!!block;n#get_don_vi_tien_te#0" expanded="false" />
-            <element signature="e#3696#3812#0" expanded="false" />
-            <element signature="n#!!block;n#don_vi_tien_te#0" expanded="false" />
-            <element signature="e#3960#4054#0" expanded="false" />
-            <element signature="e#4060#4133#0" expanded="false" />
-            <element signature="n#!!doc;n#set_noti#0" expanded="false" />
-            <element signature="n#!!doc;n#isSuccess#0" expanded="false" />
-            <element signature="e#4523#4655#0" expanded="false" />
-            <element signature="e#4703#4814#0" expanded="false" />
-            <element signature="e#4886#4992#0" expanded="false" />
-            <element signature="e#5047#5149#0" expanded="false" />
-            <element signature="n#!!block;n#chuyenDoi#0" expanded="false" />
-            <element signature="e#5407#5443#0" expanded="false" />
-            <element signature="e#5468#5514#0" expanded="false" />
-            <element signature="e#5569#7669#0" expanded="false" />
-            <element signature="e#5738#6532#0" expanded="false" />
-            <element signature="e#6560#7265#0" expanded="false" />
-            <element signature="e#6574#6893#0" expanded="false" />
-            <element signature="e#6906#7076#0" expanded="false" />
-            <element signature="e#7090#7255#0" expanded="false" />
-            <element signature="e#7369#7620#0" expanded="false" />
-            <element signature="e#7726#7922#0" expanded="false" />
-            <element signature="e#7758#7815#0" expanded="false" />
-            <element signature="e#7838#7918#0" expanded="false" />
-            <element signature="n#!!block;n#documentEvents#0" expanded="false" />
-            <element signature="e#8143#8228#0" expanded="false" />
-            <element signature="e#8275#8361#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -314,82 +547,14 @@
     <entry file="file://$PROJECT_DIR$/releases/em-oi-doi-tien-3.0-new-interface/popup.js" />
     <entry file="file://$PROJECT_DIR$/core/currency_test2.json" />
     <entry file="file://$PROJECT_DIR$/core/currency.js" />
-    <entry file="file://$PROJECT_DIR$/core/background.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/releases/em-oi-doi-tien-3.2-fetch-data-via-ajax/manifest.json" />
     <entry file="file://$PROJECT_DIR$/releases/em-oi-doi-tien-3.2-fetch-data-via-ajax/popup.css" />
-    <entry file="file://$PROJECT_DIR$/core/popup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="260" column="1" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="260" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#addDecimalPoints#0" expanded="false" />
-            <element signature="e#1375#1484#0" expanded="false" />
-            <element signature="e#1403#1443#0" expanded="false" />
-            <element signature="n#!!block;n#locKiTu#0" expanded="false" />
-            <element signature="n#!!block;n#tachSo#0" expanded="false" />
-            <element signature="e#2211#2382#0" expanded="false" />
-            <element signature="e#2337#2376#0" expanded="false" />
-            <element signature="e#2469#2821#0" expanded="false" />
-            <element signature="e#2553#2817#0" expanded="false" />
-            <element signature="e#2563#2635#0" expanded="false" />
-            <element signature="e#2763#2789#0" expanded="false" />
-            <element signature="n#!!block;n#tiGia#0" expanded="false" />
-            <element signature="e#2919#3445#0" expanded="false" />
-            <element signature="e#2990#3194#0" expanded="false" />
-            <element signature="e#3052#3184#0" expanded="false" />
-            <element signature="e#3264#3439#0" expanded="false" />
-            <element signature="e#3330#3429#0" expanded="false" />
-            <element signature="n#!!block;n#get_don_vi_tien_te#0" expanded="false" />
-            <element signature="e#3696#3812#0" expanded="false" />
-            <element signature="n#!!block;n#don_vi_tien_te#0" expanded="false" />
-            <element signature="e#3960#4054#0" expanded="false" />
-            <element signature="e#4060#4133#0" expanded="false" />
-            <element signature="n#!!doc;n#set_noti#0" expanded="false" />
-            <element signature="n#!!doc;n#isSuccess#0" expanded="false" />
-            <element signature="e#4523#4655#0" expanded="false" />
-            <element signature="e#4703#4814#0" expanded="false" />
-            <element signature="e#4886#4992#0" expanded="false" />
-            <element signature="e#5047#5149#0" expanded="false" />
-            <element signature="n#!!block;n#chuyenDoi#0" expanded="false" />
-            <element signature="e#5407#5443#0" expanded="false" />
-            <element signature="e#5468#5514#0" expanded="false" />
-            <element signature="e#5569#7669#0" expanded="false" />
-            <element signature="e#5738#6532#0" expanded="false" />
-            <element signature="e#6560#7265#0" expanded="false" />
-            <element signature="e#6574#6893#0" expanded="false" />
-            <element signature="e#6906#7076#0" expanded="false" />
-            <element signature="e#7090#7255#0" expanded="false" />
-            <element signature="e#7369#7620#0" expanded="false" />
-            <element signature="e#7726#7922#0" expanded="false" />
-            <element signature="e#7758#7815#0" expanded="false" />
-            <element signature="e#7838#7918#0" expanded="false" />
-            <element signature="n#!!block;n#documentEvents#0" expanded="false" />
-            <element signature="e#8143#8228#0" expanded="false" />
-            <element signature="e#8275#8361#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/releases/em-oi-doi-tien-3.2-fetch-data-via-ajax/popup.js" />
     <entry file="file://$PROJECT_DIR$/releases/em-oi-doi-tien-3.2-fetch-data-via-ajax/popup.html" />
     <entry file="file://$PROJECT_DIR$/core/currency.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="71" lean-forward="false" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
-          <folding />
+        <state relative-caret-position="197">
+          <caret line="221" column="14" lean-forward="true" selection-start-line="221" selection-start-column="14" selection-end-line="221" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -401,19 +566,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/popup.html">
+    <entry file="file://$PROJECT_DIR$/core/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/background.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/message.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="17">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/GitHub/small-projects/menu-hover-effects/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1055">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/ref/local-currency.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="52" lean-forward="false" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/currency.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1241">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="105" column="13" lean-forward="false" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="534" column="0" lean-forward="true" selection-start-line="534" selection-start-column="0" selection-end-line="534" selection-end-column="0" />
+          <folding>
+            <element signature="e#268#318#0" expanded="false" />
+            <element signature="e#486#518#0" expanded="false" />
+            <element signature="e#1544#1612#0" expanded="false" />
+            <element signature="e#2802#2921#0" expanded="false" />
+            <element signature="e#2945#3043#0" expanded="false" />
+            <element signature="e#3050#3139#0" expanded="false" />
+            <element signature="e#3176#3749#0" expanded="false" />
+            <element signature="e#3756#3869#0" expanded="false" />
+            <element signature="e#3908#4480#0" expanded="false" />
+            <element signature="e#4487#4576#0" expanded="false" />
+            <element signature="e#4617#4874#0" expanded="false" />
+            <element signature="e#4881#4917#0" expanded="false" />
+            <element signature="e#4956#13226#0" expanded="false" />
+            <element signature="e#13233#13324#0" expanded="false" />
+            <element signature="e#13365#14236#0" expanded="false" />
+            <element signature="e#14243#14332#0" expanded="false" />
+            <element signature="e#14375#15861#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

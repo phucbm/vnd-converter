@@ -1,0 +1,237 @@
+﻿{
+  "update_text": "Theo tỉ giá Vietcombank cập nhật lúc 17/10/2018 14:45",
+  "currencies": [
+    {
+      "name": " đô la Úc",
+      "rate": 16731.79,
+      "currencyCode": [
+        "aud",
+        "australiandollar",
+        "dolauc",
+        "tienuc"
+      ],
+      "site": []
+    },
+    {
+      "name": " đô la Canada",
+      "rate": 18113.10,
+      "currencyCode": [
+        "cda",
+        "canadiandollar",
+        "dolacanada",
+        "cad",
+        "tiencanada"
+      ],
+      "site": []
+    },
+    {
+      "name": " Swiss France",
+      "rate": 23699.50,
+      "currencyCode": [
+        "chf",
+        "swiss",
+        "franc",
+        "thuysi"
+      ],
+      "site": []
+    },
+    {
+      "name": " Danish Krone",
+      "rate": 3673.75,
+      "currencyCode": [
+        "dkk",
+        "danish",
+        "krone",
+        "danmach"
+      ],
+      "site": []
+    },
+    {
+      "name": " euro",
+      "rate": 2710057,
+      "currencyCode": [
+        "eur",
+        "€",
+        "euro"
+      ],
+      "site": []
+    },
+    {
+      "name": " bảng Anh",
+      "rate": 30881.99,
+      "currencyCode": [
+        "gbp",
+        "£",
+        "pound",
+        "anh",
+        "bang",
+        "british"
+      ],
+      "site": []
+    },
+    {
+      "name": " đô la HK",
+      "rate": 3000.27,
+      "currencyCode": [
+        "hkd",
+        "$hk",
+        "hk",
+        "hongkongdollar",
+        "dolahongkong",
+        "dolahk",
+        "hongkong"
+      ],
+      "site": []
+    },
+    {
+      "name": " rupee Ấn Độ",
+      "rate": 329.39,
+      "currencyCode": [
+        "inr",
+        "indianrupee",
+        "rupee",
+        "ando"
+      ],
+      "site": []
+    },
+    {
+      "name": " yên Nhật",
+      "rate": 212.02,
+      "currencyCode": [
+        "yen",
+        "jpy",
+        "¥",
+        "￥",
+        "円",
+        "japaneseyen",
+        "nhat"
+      ],
+      "site": [
+        "amazon.co.jp",
+        ".jp",
+        "ikea.com/jp/en/"
+      ]
+    },
+    {
+      "name": " won",
+      "rate": 21.40,
+      "currencyCode": [
+        "won",
+        "krw",
+        "₩",
+        "southkorean",
+        "han"
+      ],
+      "site": [
+        ".kr"
+      ]
+    },
+    {
+      "name": " ringgit Malaysia",
+      "rate": 5657.74,
+      "currencyCode": [
+        "myr",
+        "ringgit",
+        "malai",
+        "malay",
+        "rm"
+      ],
+      "site": []
+    },
+    {
+      "name": " kroner Na Uy",
+      "rate": 2906.70,
+      "currencyCode": [
+        "nok",
+        "kroner",
+        "nauy",
+        "norwegian"
+      ],
+      "site": []
+    },
+    {
+      "name": " rub Nga",
+      "rate": 397.04,
+      "currencyCode": [
+        "rub",
+        "nga"
+      ],
+      "site": []
+    },
+    {
+      "name": " krona Thụy Điển",
+      "rate": 2649.39,
+      "currencyCode": [
+        "sek",
+        "krona",
+        "thuydien",
+        "swedish"
+      ],
+      "site": []
+    },
+    {
+      "name": " đô la Sing",
+      "rate": 17073.36,
+      "currencyCode": [
+        "sgd",
+        "dolasing",
+        "singapo",
+        "sing",
+        "dosing"
+      ],
+      "site": []
+    },
+    {
+      "name": " baht Thái",
+      "rate": 732.45,
+      "currencyCode": [
+        "thb",
+        "฿",
+        "bath",
+        "baht",
+        "thai"
+      ],
+      "site": []
+    },
+    {
+      "name": " đô la Mỹ",
+      "rate": 23385,
+      "currencyCode": [
+        "$",
+        "usd",
+        "usdollar",
+        "dola",
+        "hoaki",
+        "hoaky",
+        "my"
+      ],
+      "site": []
+    },
+    {
+      "name": " nghìn",
+      "rate": 1000,
+      "currencyCode": [
+        "nghin"
+      ],
+      "site": []
+    },
+    {
+      "name": " nhân dân tệ",
+      "rate": 3470,
+      "currencyCode": [
+        "cny",
+        "ndt",
+        "nhandante",
+        "te",
+        "tq",
+        "trung"
+      ],
+      "site": [
+        "taobao.com",
+        "1688.com",
+        ".cn",
+        "tmall.com"
+      ]
+    }
+  ]
+}

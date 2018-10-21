@@ -1,0 +1,5 @@
+{
+    "visibility": "visible",
+    "date": "18-Oct-2018",
+    "content": "Hôm nay trời đẹp nên mình vừa cập nhật tỉ giá nhé. Thank you!"
+}
