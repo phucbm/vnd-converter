@@ -1,7 +1,7 @@
-# em-oi-doi-tien
+# Em ơi đổi tiền
 Install here: https://goo.gl/6hH6pP
 
-## change logs
+## Change logs
 v4.0 - October 21, 2018
 * Code refactoring, more objective.
 * Fix bugs not auto convert from user selection.
