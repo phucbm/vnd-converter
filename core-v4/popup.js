@@ -209,7 +209,9 @@ jQuery(document).ready(function ($) {
      * Check if current site support auto currency code
      */
     currentTab.runCheck = function (currencies) {
-        //dev.log(currencies);
+        if(typeof currentTab !== 'undefined') return;
+
+        // dev.log(currentTab);
         // Loop each currency
         for (var i = 0; i < currencies.length; i++) {
             // Loop each site
