@@ -209,8 +209,8 @@ jQuery(document).ready(function ($) {
      * Check if current site support auto currency code
      */
     currentTab.runCheck = function (currencies) {
-        if(typeof currentTab === 'undefined') {
-            dev.log("Current tab is undefined!");
+        if (typeof currentTab.url === 'undefined') {
+            dev.log("Current tab url is undefined!");
             return;
         }
 
