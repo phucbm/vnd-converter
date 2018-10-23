@@ -197,19 +197,22 @@ jQuery(document).ready(function ($) {
     if (chrome.tabs != null) {
         chrome.tabs.query({active: true, currentWindow: true}, function (arrayOfTabs) {
             var activeTab = arrayOfTabs[0];
-            //dev.log(activeTab);
             currentTab.url = activeTab.url;
             currentTab.favIconUrl = activeTab.favIconUrl;
             currentTab.title = activeTab.title;
             currentTab.incognito = activeTab.incognito;
         });
+        dev.log(currentTab);
     }
 
     /**
      * Check if current site support auto currency code
      */
     currentTab.runCheck = function (currencies) {
-        if(typeof currentTab !== 'undefined') return;
+        if(typeof currentTab === 'undefined') {
+            dev.log("Current tab is undefined!");
+            return;
+        }
 
         // dev.log(currentTab);
         // Loop each currency

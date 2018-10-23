@@ -233,7 +233,8 @@
         "taobao.com",
         "1688.com",
         ".cn",
-        "tmall.com"
+        "tmall.com",
+        "tmall.hk"
       ]
     },
     {
