@@ -231,7 +231,7 @@
       "site": []
     },
     {
-      "name": " nhân dân tệ",
+      "name": " Nhân dân tệ",
       "rate": 3470,
       "currencyCode": [
         "cny",
