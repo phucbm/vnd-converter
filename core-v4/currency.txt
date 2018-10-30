@@ -245,6 +245,18 @@
             "piso"
           ],
       "site": []
+    },
+    {
+      "name": " Đài tệ",
+      "rate": 760,
+      "currencyCode": [
+            "twd",
+            "daite",
+            "NT$",
+            "NTD",
+            "NT"
+          ],
+      "site": []
     }
   ]
 }
