@@ -22,7 +22,7 @@ jQuery(document).ready(function ($) {
     /************************************
      * Message control
      ************************************/
-    mess.$ = $("#message");
+    mess.$ = $("body.eodt2k16 #message");
     mess.clear = function () {
         mess.$.html('');
     };
@@ -163,7 +163,7 @@ jQuery(document).ready(function ($) {
     /*************************************
      * Input
      *************************************/
-    input.$ = $("#input");
+    input.$ = $("body.eodt2k16 #input");
     input.valid = false;
     input.data = {
         raw: '',
@@ -238,9 +238,9 @@ jQuery(document).ready(function ($) {
         html += '<img src="' + currentTab.favIconUrl + '" class="favicon">';
         html += '<span class="text">Ngoại tệ mặc định: ' + input.data.currencyName() + '</span>';
         html += '</div>';
-        $('main').prepend(html);
+        $('body.eodt2k16 main').prepend(html);
 
-        $('body').addClass('site-supported');
+        $('body.eodt2k16').addClass('site-supported');
     };
 
     /*************************************
@@ -762,7 +762,8 @@ jQuery(document).ready(function ($) {
     /**
      * Manual link action
      */
-    $('a').click(function () {
-        chrome.tabs.create({url: $(this).attr('href')});
+    $('body.eodt2k16 a').click(function () {
+        var href = $(this).attr('href');
+        chrome.tabs.create({url: href});
     });
 });
