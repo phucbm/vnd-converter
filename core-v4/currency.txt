@@ -219,7 +219,19 @@
       "site": []
     },
     {
-      "name": " nhân dân tệ",
+      "name": " Đài tệ",
+      "rate": 760,
+      "currencyCode": [
+            "twd",
+            "daite",
+            "NT$",
+            "NTD",
+            "NT"
+          ],
+      "site": []
+    },
+    {
+      "name": " Nhân dân tệ",
       "rate": 3470,
       "currencyCode": [
         "cny",

@@ -2,7 +2,7 @@
 Install here: https://goo.gl/6hH6pP
 
 ## Change logs
-v4.1 - October 22, 2018
+v4.0.3 - October 22, 2018
 * Fix bugs throw error on console when cannot get current tab info
 
 v4.0 - October 21, 2018
