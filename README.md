@@ -1,4 +1,4 @@
-# Em ơi đổi tiền
+# VND Converter
 Install here: https://goo.gl/6hH6pP
 
 ## Change logs
