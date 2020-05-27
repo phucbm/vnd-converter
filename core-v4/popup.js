@@ -14,7 +14,7 @@ jQuery(document).ready(function ($) {
     /************************************
      * Dev functions
      ************************************/
-    dev.status = false;
+    dev.status = true;
     dev.log = function (text) {
         if (dev.status) console.log(text);
     };
@@ -41,7 +41,7 @@ jQuery(document).ready(function ($) {
         // switch error code
         switch (errorCode) {
             case 'too-long-input':
-                text = "Hãy nhập giá trị ngắn hơn.";
+                text = "Hãy nhập giá trị ngắn hơn 100 kí tự.";
                 break;
             case 'empty-input':
                 text = "Hãy quét chọn hoặc gõ ngoại tệ mà bạn muốn đổi.";
@@ -170,24 +170,18 @@ jQuery(document).ready(function ($) {
         number: 0,
         currencyID: 0,
         currencyName: function () {
-            if (!input.valid) {
-                if (currentTab.isSupported) {
-                    return app.currencyData.currencies[currentTab.currencySupportID].name;
-                } else {
-                    return;
-                }
+            if (currentTab.isSupported) {
+                return app.currencyData.currencies[currentTab.currencySupportID].name;
+            } else {
+                return app.currencyData.currencies[input.data.currencyID].name;
             }
-            return app.currencyData.currencies[input.data.currencyID].name;
         },
         currencyRate: function () {
-            if (!input.valid) {
-                if (currentTab.isSupported) {
-                    return app.currencyData.currencies[currentTab.currencySupportID].rate;
-                } else {
-                    return;
-                }
+            if (currentTab.isSupported) {
+                return app.currencyData.currencies[currentTab.currencySupportID].rate;
+            } else {
+                return app.currencyData.currencies[input.data.currencyID].rate;
             }
-            return app.currencyData.currencies[input.data.currencyID].rate;
         }
     };
 
@@ -334,67 +328,67 @@ jQuery(document).ready(function ($) {
 
         // Definition
         var local_currency = {
-            update_text: "Theo tỉ giá Vietcombank cập nhật lúc 17/10/2018 14:45",
-            currencies: [
+            "update_text": "Theo tỉ giá Vietcombank cập nhật lúc 27/05/2020",
+            "currencies": [
                 {
-                    name: " đô la Úc",
-                    rate: 16731.79,
-                    currencyCode: [
+                    "name": " đô la Úc",
+                    "rate": 15723.49,
+                    "currencyCode": [
                         "aud",
                         "australiandollar",
                         "dolauc",
                         "tienuc"
                     ],
-                    site: []
+                    "site": []
                 },
                 {
-                    name: " đô la Canada",
-                    rate: 18113.10,
-                    currencyCode: [
+                    "name": " đô la Canada",
+                    "rate": 17166.98,
+                    "currencyCode": [
                         "cda",
                         "canadiandollar",
                         "dolacanada",
                         "cad",
                         "tiencanada"
                     ],
-                    site: []
+                    "site": []
                 },
                 {
-                    name: " Swiss France",
-                    rate: 23699.50,
-                    currencyCode: [
+                    "name": " Swiss France",
+                    "rate": 24529.08,
+                    "currencyCode": [
                         "chf",
                         "swiss",
                         "franc",
                         "thuysi"
                     ],
-                    site: []
+                    "site": []
                 },
                 {
-                    name: " Danish Krone",
-                    rate: 3673.75,
-                    currencyCode: [
+                    "name": " Danish Krone",
+                    "rate": 3495.16,
+                    "currencyCode": [
                         "dkk",
                         "danish",
                         "krone",
                         "danmach"
                     ],
-                    site: []
+                    "site": []
                 },
                 {
-                    name: " euro",
-                    rate: 2710057,
-                    currencyCode: [
+                    "name": " euro",
+                    "rate": 26204.85,
+                    "currencyCode": [
                         "eur",
                         "€",
                         "euro"
                     ],
-                    site: []
+                    "site": []
                 },
                 {
-                    name: " bảng Anh",
-                    rate: 30881.99,
-                    currencyCode: [
+                    "name": " bảng Anh",
+                    "rate": 29166.59,
+                    "currencyCode": [
                         "gbp",
                         "£",
                         "pound",
@@ -402,12 +396,12 @@ jQuery(document).ready(function ($) {
                         "bang",
                         "british"
                     ],
-                    site: []
+                    "site": []
                 },
                 {
-                    name: " đô la HK",
-                    rate: 3000.27,
-                    currencyCode: [
+                    "name": " đô la HK",
+                    "rate": 3055.30,
+                    "currencyCode": [
                         "hkd",
                         "$hk",
                         "hk",
@@ -416,23 +410,23 @@ jQuery(document).ready(function ($) {
                         "dolahk",
                         "hongkong"
                     ],
-                    site: []
+                    "site": []
                 },
                 {
-                    name: " rupee Ấn Độ",
-                    rate: 329.39,
-                    currencyCode: [
+                    "name": " rupee Ấn Độ",
+                    "rate": 320.50,
+                    "currencyCode": [
                         "inr",
                         "indianrupee",
                         "rupee",
                         "ando"
                     ],
-                    site: []
+                    "site": []
                 },
                 {
-                    name: " yên Nhật",
-                    rate: 212.02,
-                    currencyCode: [
+                    "name": " yên Nhật",
+                    "rate": 220.39,
+                    "currencyCode": [
                         "yen",
                         "jpy",
                         "¥",
@@ -441,97 +435,100 @@ jQuery(document).ready(function ($) {
                         "japaneseyen",
                         "nhat"
                     ],
-                    site: [
+                    "site": [
                         "amazon.co.jp",
                         ".jp",
                         "ikea.com/jp/en/"
                     ]
                 },
                 {
-                    name: " won",
-                    rate: 21.40,
-                    currencyCode: [
+                    "name": " won",
+                    "rate": 19.91,
+                    "currencyCode": [
                         "won",
                         "krw",
                         "₩",
                         "southkorean",
                         "han"
                     ],
-                    site: [
+                    "site": [
                         ".kr"
                     ]
                 },
                 {
-                    name: " ringgit Malaysia",
-                    rate: 5657.74,
-                    currencyCode: [
+                    "name": " ringgit Malaysia",
+                    "rate": 5423.63,
+                    "currencyCode": [
                         "myr",
                         "ringgit",
                         "malai",
                         "malay",
                         "rm"
                     ],
-                    site: []
+                    "site": []
                 },
                 {
-                    name: " kroner Na Uy",
-                    rate: 2906.70,
-                    currencyCode: [
+                    "name": " kroner Na Uy",
+                    "rate": 2404.49,
+                    "currencyCode": [
                         "nok",
                         "kroner",
                         "nauy",
                         "norwegian"
                     ],
-                    site: []
+                    "site": []
                 },
                 {
-                    name: " rub Nga",
-                    rate: 397.04,
-                    currencyCode: [
+                    "name": " rub Nga",
+                    "rate": 366.87,
+                    "currencyCode": [
                         "rub",
                         "nga"
                     ],
-                    site: []
+                    "site": []
                 },
                 {
-                    name: " krona Thụy Điển",
-                    rate: 2649.39,
-                    currencyCode: [
+                    "name": " krona Thụy Điển",
+                    "rate": 2471.39,
+                    "currencyCode": [
                         "sek",
                         "krona",
                         "thuydien",
                         "swedish"
                     ],
-                    site: []
+                    "site": []
                 },
                 {
-                    name: " đô la Sing",
-                    rate: 17073.36,
-                    currencyCode: [
+                    "name": " đô la Sing",
+                    "rate": 16709.19,
+                    "currencyCode": [
                         "sgd",
                         "dolasing",
                         "singapo",
                         "sing",
-                        "dosing"
+                        "dosing",
+                        "s$"
                     ],
-                    site: []
+                    "site": [
+                        "irvinsaltedegg.com"
+                    ]
                 },
                 {
-                    name: " baht Thái",
-                    rate: 732.45,
-                    currencyCode: [
+                    "name": " baht Thái",
+                    "rate": 745.22,
+                    "currencyCode": [
                         "thb",
                         "฿",
                         "bath",
                         "baht",
                         "thai"
                     ],
-                    site: []
+                    "site": []
                 },
                 {
-                    name: " đô la Mỹ",
-                    rate: 23385,
-                    currencyCode: [
+                    "name": " đô la Mỹ",
+                    "rate": 23410,
+                    "currencyCode": [
                         "$",
                         "usd",
                         "usdollar",
@@ -540,20 +537,32 @@ jQuery(document).ready(function ($) {
                         "hoaky",
                         "my"
                     ],
-                    site: []
+                    "site": []
                 },
                 {
-                    name: " nghìn",
-                    rate: 1000,
-                    currencyCode: [
+                    "name": " nghìn",
+                    "rate": 1000,
+                    "currencyCode": [
                         "nghin"
                     ],
-                    site: []
+                    "site": []
                 },
                 {
-                    name: " nhân dân tệ",
-                    rate: 3470,
-                    currencyCode: [
+                    "name": " Đài tệ",
+                    "rate": 795.69,
+                    "currencyCode": [
+                        "twd",
+                        "daite",
+                        "NT$",
+                        "NTD",
+                        "NT"
+                    ],
+                    "site": []
+                },
+                {
+                    "name": " Nhân dân tệ",
+                    "rate": 3330,
+                    "currencyCode": [
                         "cny",
                         "ndt",
                         "nhandante",
@@ -561,15 +570,36 @@ jQuery(document).ready(function ($) {
                         "tq",
                         "trung"
                     ],
-                    site: [
+                    "site": [
                         "taobao.com",
                         "1688.com",
                         ".cn",
-                        "tmall.com"
+                        "tmall.com",
+                        "tmall.hk"
                     ]
+                },
+                {
+                    "name": " Philippine Piso",
+                    "rate": 435.22,
+                    "currencyCode": [
+                        "php",
+                        "piso"
+                    ],
+                    "site": []
+                },
+                {
+                    "name": " Kip Lào",
+                    "rate": 2.83,
+                    "currencyCode": [
+                        "kip",
+                        "lao",
+                        "kip lao"
+                    ],
+                    "site": []
                 }
             ]
         };
+
 
         // Fetch currency from Git
         $.ajax({
@@ -669,7 +699,7 @@ jQuery(document).ready(function ($) {
 
         // Number filter
         valNumber = app.numberFilter(valTextFiltered);
-        if (valNumber !== false) {
+        if (typeof valNumber !== "undefined" || valNumber !== false) {
             mess.unsetValidation('number-not-found');
         } else {
             mess.setValidation('number-not-found');
@@ -678,7 +708,8 @@ jQuery(document).ready(function ($) {
 
         // Find currency
         currencyID = app.findCurrencyID(valTextFiltered);
-        if (currencyID !== false) {
+        dev.log("Find currency: " + currencyID);
+        if (typeof currencyID !== "undefined" || currencyID !== false) {
             mess.unsetValidation('currency-code-not-found');
         } else {
             // If current site support auto currency code

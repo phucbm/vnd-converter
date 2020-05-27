@@ -3,16 +3,14 @@
   "name": "VND Converter",
   "short_name": "VND Converter",
   "description": "Chuyển ngoại tệ sang Việt Nam đồng trực tiếp trên trang web.",
-  "version": "4.0.6",
+  "version": "4.0.7",
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
   "permissions": [
     "activeTab",
-    "tabs",
-    "notifications",
-    "storage"
+    "tabs"
   ],
   "content_scripts": [
     {
