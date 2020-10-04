@@ -1,6 +1,7 @@
 /**
- * Em oi doi tien - Chrome extension
- * Copyright 2016 PHUCBM.COM
+ * VND Converter v4.0.8
+ * Author: PhucBui
+ * Author URL: https://buiminhphuc.com
  */
 
 app = {};
@@ -14,7 +15,7 @@ jQuery(document).ready(function ($) {
     /************************************
      * Dev functions
      ************************************/
-    dev.status = true;
+    dev.status = false;
     dev.log = function (text) {
         if (dev.status) console.log(text);
     };

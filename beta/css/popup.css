@@ -1,8 +1,9 @@
-/* Copyright 2016 Phucbm */
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=vietnamese');
 /**
-font-family: 'Inconsolata', monospace;
+ * VND Converter v4.0.8
+ * Author: PhucBui
+ * Author URL: https://buiminhphuc.com
  */
+
 * { margin:0; padding:0; border:none; outline:none; }
 body {
     font-family: 'Inconsolata', monospace; font-size: 14px;
