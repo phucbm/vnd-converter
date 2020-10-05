@@ -1,0 +1,272 @@
+﻿{
+  "update_text": "Theo tỉ giá Vietcombank cập nhật lúc 04/10/2020",
+  "currencies": [
+    {
+      "name": " đô la Úc",
+      "rate": 16883.92,
+      "currencyCode": [
+        "aud",
+        "australiandollar",
+        "dolauc",
+        "tienuc"
+      ],
+      "site": []
+    },
+    {
+      "name": " đô la Canada",
+      "rate": 17722.57,
+      "currencyCode": [
+        "cda",
+        "canadiandollar",
+        "dolacanada",
+        "cad",
+        "tiencanada"
+      ],
+      "site": []
+    },
+    {
+      "name": " Swiss France",
+      "rate": 25612.55,
+      "currencyCode": [
+        "chf",
+        "swiss",
+        "franc",
+        "thuysi"
+      ],
+      "site": []
+    },
+    {
+      "name": " Danish Krone",
+      "rate": 3725.44,
+      "currencyCode": [
+        "dkk",
+        "danish",
+        "krone",
+        "danmach"
+      ],
+      "site": []
+    },
+    {
+      "name": " euro",
+      "rate": 27876.23,
+      "currencyCode": [
+        "eur",
+        "€",
+        "euro"
+      ],
+      "site": []
+    },
+    {
+      "name": " bảng Anh",
+      "rate": 30320.40,
+      "currencyCode": [
+        "gbp",
+        "£",
+        "pound",
+        "anh",
+        "bang",
+        "british"
+      ],
+      "site": []
+    },
+    {
+      "name": " đô la HK",
+      "rate": 3039.29,
+      "currencyCode": [
+        "hkd",
+        "$hk",
+        "hk",
+        "hongkongdollar",
+        "dolahongkong",
+        "dolahk",
+        "hongkong"
+      ],
+      "site": []
+    },
+    {
+      "name": " rupee Ấn Độ",
+      "rate": 328.27,
+      "currencyCode": [
+        "inr",
+        "indianrupee",
+        "rupee",
+        "ando"
+      ],
+      "site": []
+    },
+    {
+      "name": " yên Nhật",
+      "rate": 223.42,
+      "currencyCode": [
+        "yen",
+        "jpy",
+        "¥",
+        "￥",
+        "円",
+        "japaneseyen",
+        "nhat"
+      ],
+      "site": [
+        "amazon.co.jp",
+        ".jp",
+        "ikea.com/jp/en/"
+      ]
+    },
+    {
+      "name": " won",
+      "rate": 21,
+      "currencyCode": [
+        "won",
+        "krw",
+        "₩",
+        "southkorean",
+        "han"
+      ],
+      "site": [
+        ".kr"
+      ]
+    },
+    {
+      "name": " ringgit Malaysia",
+      "rate": 5642.75,
+      "currencyCode": [
+        "myr",
+        "ringgit",
+        "malai",
+        "malay",
+        "rm"
+      ],
+      "site": []
+    },
+    {
+      "name": " kroner Na Uy",
+      "rate": 2540.92,
+      "currencyCode": [
+        "nok",
+        "kroner",
+        "nauy",
+        "norwegian"
+      ],
+      "site": []
+    },
+    {
+      "name": " rub Nga",
+      "rate": 334.61,
+      "currencyCode": [
+        "rub",
+        "nga"
+      ],
+      "site": []
+    },
+    {
+      "name": " krona Thụy Điển",
+      "rate": 2651.87,
+      "currencyCode": [
+        "sek",
+        "krona",
+        "thuydien",
+        "swedish"
+      ],
+      "site": []
+    },
+    {
+      "name": " đô la Sing",
+      "rate": 17275.41,
+      "currencyCode": [
+        "sgd",
+        "dolasing",
+        "singapo",
+        "sing",
+        "dosing",
+        "s$"
+      ],
+      "site": [
+        "irvinsaltedegg.com"
+      ]
+    },
+    {
+      "name": " baht Thái",
+      "rate": 748.58,
+      "currencyCode": [
+        "thb",
+        "฿",
+        "bath",
+        "baht",
+        "thai"
+      ],
+      "site": []
+    },
+    {
+      "name": " đô la Mỹ",
+      "rate": 23280,
+      "currencyCode": [
+        "$",
+        "usd",
+        "usdollar",
+        "dola",
+        "hoaki",
+        "hoaky",
+        "my"
+      ],
+      "site": []
+    },
+    {
+      "name": " nghìn",
+      "rate": 1000,
+      "currencyCode": [
+        "nghin"
+      ],
+      "site": []
+    },
+    {
+      "name": " Đài tệ",
+      "rate": 795.69,
+      "currencyCode": [
+            "twd",
+            "daite",
+            "NT$",
+            "NTD",
+            "NT"
+          ],
+      "site": []
+    },
+    {
+      "name": " Nhân dân tệ",
+      "rate": 3330,
+      "currencyCode": [
+        "cny",
+        "ndt",
+        "nhandante",
+        "te",
+        "tq",
+        "trung"
+      ],
+      "site": [
+        "taobao.com",
+        "1688.com",
+        ".cn",
+        "tmall.com",
+        "tmall.hk"
+      ]
+    },
+    {
+      "name": " Philippine Piso",
+      "rate": 435.22,
+      "currencyCode": [
+            "php",
+            "piso"
+          ],
+      "site": []
+    },
+    {
+          "name": " Kip Lào",
+          "rate": 2.83,
+          "currencyCode": [
+                "kip",
+                "lao",
+                "kip lao"
+              ],
+          "site": []
+        }
+  ]
+}
